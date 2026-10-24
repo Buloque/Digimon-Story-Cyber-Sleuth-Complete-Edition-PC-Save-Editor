@@ -4,11 +4,11 @@ Versão para os saves da edição **PC/Steam**, baseada no editor Switch de Gree
 
 ## Download — versão 1.2.0
 
-**[Baixar o editor v1.2.0 para Windows (ZIP)](https://github.com/Buloque/Digimon-Story-Cyber-Sleuth-Complete-Edition-PC-Save-Editor/releases/download/v1.2.0/DSCS-PC-Save-Editor-v1.2.zip)**
+**[Baixar o editor v1.2.0 para Windows (ZIP)](https://github.com/Buloque/Digimon-Story-Cyber-Sleuth-Complete-Edition-PC-Save-Editor/raw/refs/heads/main/releases/DSCS-PC-Save-Editor-v1.2.zip)**
 
 O pacote inclui o executável em `bin/`, o código-fonte em `src/` e o resultado dos testes em `validation/`. Requer **.NET Framework 4.7.2 ou superior**. Extraia o ZIP antes de executar o programa.
 
-[Notas da versão e arquivos](https://github.com/Buloque/Digimon-Story-Cyber-Sleuth-Complete-Edition-PC-Save-Editor/releases/tag/v1.2.0) · [Checksum SHA-256](https://github.com/Buloque/Digimon-Story-Cyber-Sleuth-Complete-Edition-PC-Save-Editor/releases/download/v1.2.0/SHA256SUMS.txt)
+[Notas da versão e arquivos](https://github.com/Buloque/Digimon-Story-Cyber-Sleuth-Complete-Edition-PC-Save-Editor/releases/tag/v1.2.0) · [Checksum SHA-256](https://github.com/Buloque/Digimon-Story-Cyber-Sleuth-Complete-Edition-PC-Save-Editor/raw/refs/heads/main/releases/SHA256SUMS.txt)
 
 ## Versão 1.2.0: party completa e gênero
 
