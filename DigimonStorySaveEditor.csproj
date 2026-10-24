@@ -39,6 +39,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -50,7 +51,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="SaveFormats\PcSaveCipher.cs" />
+    <Compile Include="SaveFormats\PcSaveDocument.cs" />
+    <Compile Include="SaveFormats\PreservingSaveStream.cs" />
+    <Compile Include="PcEditor.cs" />
+    <Compile Include="PartySlotEditor.cs" />
     <Compile Include="MainEditor.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -7636,6 +7636,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot1LearnedSkill20None.Location = new System.Drawing.Point(415, 593);
             this.checkBoxCSDigimonPartySlot1LearnedSkill20None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot1LearnedSkill20None.Name = "checkBoxCSDigimonPartySlot1LearnedSkill20None";
+            this.checkBoxCSDigimonPartySlot1LearnedSkill20None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot1LearnedSkill20None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot1LearnedSkill20None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot1LearnedSkill20None.TabIndex = 217;
             this.checkBoxCSDigimonPartySlot1LearnedSkill20None.UseVisualStyleBackColor = true;
@@ -7646,6 +7647,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot1LearnedSkill19None.Location = new System.Drawing.Point(415, 562);
             this.checkBoxCSDigimonPartySlot1LearnedSkill19None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot1LearnedSkill19None.Name = "checkBoxCSDigimonPartySlot1LearnedSkill19None";
+            this.checkBoxCSDigimonPartySlot1LearnedSkill19None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot1LearnedSkill19None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot1LearnedSkill19None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot1LearnedSkill19None.TabIndex = 216;
             this.checkBoxCSDigimonPartySlot1LearnedSkill19None.UseVisualStyleBackColor = true;
@@ -7656,6 +7658,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot1LearnedSkill18None.Location = new System.Drawing.Point(415, 533);
             this.checkBoxCSDigimonPartySlot1LearnedSkill18None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot1LearnedSkill18None.Name = "checkBoxCSDigimonPartySlot1LearnedSkill18None";
+            this.checkBoxCSDigimonPartySlot1LearnedSkill18None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot1LearnedSkill18None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot1LearnedSkill18None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot1LearnedSkill18None.TabIndex = 215;
             this.checkBoxCSDigimonPartySlot1LearnedSkill18None.UseVisualStyleBackColor = true;
@@ -7666,6 +7669,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot1LearnedSkill17None.Location = new System.Drawing.Point(415, 503);
             this.checkBoxCSDigimonPartySlot1LearnedSkill17None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot1LearnedSkill17None.Name = "checkBoxCSDigimonPartySlot1LearnedSkill17None";
+            this.checkBoxCSDigimonPartySlot1LearnedSkill17None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot1LearnedSkill17None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot1LearnedSkill17None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot1LearnedSkill17None.TabIndex = 214;
             this.checkBoxCSDigimonPartySlot1LearnedSkill17None.UseVisualStyleBackColor = true;
@@ -7676,6 +7680,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot1LearnedSkill16None.Location = new System.Drawing.Point(415, 473);
             this.checkBoxCSDigimonPartySlot1LearnedSkill16None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot1LearnedSkill16None.Name = "checkBoxCSDigimonPartySlot1LearnedSkill16None";
+            this.checkBoxCSDigimonPartySlot1LearnedSkill16None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot1LearnedSkill16None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot1LearnedSkill16None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot1LearnedSkill16None.TabIndex = 213;
             this.checkBoxCSDigimonPartySlot1LearnedSkill16None.UseVisualStyleBackColor = true;
@@ -7686,6 +7691,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot1LearnedSkill15None.Location = new System.Drawing.Point(415, 443);
             this.checkBoxCSDigimonPartySlot1LearnedSkill15None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot1LearnedSkill15None.Name = "checkBoxCSDigimonPartySlot1LearnedSkill15None";
+            this.checkBoxCSDigimonPartySlot1LearnedSkill15None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot1LearnedSkill15None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot1LearnedSkill15None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot1LearnedSkill15None.TabIndex = 212;
             this.checkBoxCSDigimonPartySlot1LearnedSkill15None.UseVisualStyleBackColor = true;
@@ -7696,6 +7702,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot1LearnedSkill14None.Location = new System.Drawing.Point(415, 414);
             this.checkBoxCSDigimonPartySlot1LearnedSkill14None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot1LearnedSkill14None.Name = "checkBoxCSDigimonPartySlot1LearnedSkill14None";
+            this.checkBoxCSDigimonPartySlot1LearnedSkill14None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot1LearnedSkill14None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot1LearnedSkill14None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot1LearnedSkill14None.TabIndex = 211;
             this.checkBoxCSDigimonPartySlot1LearnedSkill14None.UseVisualStyleBackColor = true;
@@ -7706,6 +7713,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot1LearnedSkill13None.Location = new System.Drawing.Point(415, 383);
             this.checkBoxCSDigimonPartySlot1LearnedSkill13None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot1LearnedSkill13None.Name = "checkBoxCSDigimonPartySlot1LearnedSkill13None";
+            this.checkBoxCSDigimonPartySlot1LearnedSkill13None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot1LearnedSkill13None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot1LearnedSkill13None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot1LearnedSkill13None.TabIndex = 210;
             this.checkBoxCSDigimonPartySlot1LearnedSkill13None.UseVisualStyleBackColor = true;
@@ -7716,6 +7724,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot1LearnedSkill12None.Location = new System.Drawing.Point(415, 353);
             this.checkBoxCSDigimonPartySlot1LearnedSkill12None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot1LearnedSkill12None.Name = "checkBoxCSDigimonPartySlot1LearnedSkill12None";
+            this.checkBoxCSDigimonPartySlot1LearnedSkill12None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot1LearnedSkill12None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot1LearnedSkill12None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot1LearnedSkill12None.TabIndex = 209;
             this.checkBoxCSDigimonPartySlot1LearnedSkill12None.UseVisualStyleBackColor = true;
@@ -7726,6 +7735,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot1LearnedSkill11None.Location = new System.Drawing.Point(415, 322);
             this.checkBoxCSDigimonPartySlot1LearnedSkill11None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot1LearnedSkill11None.Name = "checkBoxCSDigimonPartySlot1LearnedSkill11None";
+            this.checkBoxCSDigimonPartySlot1LearnedSkill11None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot1LearnedSkill11None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot1LearnedSkill11None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot1LearnedSkill11None.TabIndex = 208;
             this.checkBoxCSDigimonPartySlot1LearnedSkill11None.UseVisualStyleBackColor = true;
@@ -7736,6 +7746,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot1LearnedSkill10None.Location = new System.Drawing.Point(415, 293);
             this.checkBoxCSDigimonPartySlot1LearnedSkill10None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot1LearnedSkill10None.Name = "checkBoxCSDigimonPartySlot1LearnedSkill10None";
+            this.checkBoxCSDigimonPartySlot1LearnedSkill10None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot1LearnedSkill10None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot1LearnedSkill10None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot1LearnedSkill10None.TabIndex = 207;
             this.checkBoxCSDigimonPartySlot1LearnedSkill10None.UseVisualStyleBackColor = true;
@@ -7746,6 +7757,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot1LearnedSkill9None.Location = new System.Drawing.Point(415, 263);
             this.checkBoxCSDigimonPartySlot1LearnedSkill9None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot1LearnedSkill9None.Name = "checkBoxCSDigimonPartySlot1LearnedSkill9None";
+            this.checkBoxCSDigimonPartySlot1LearnedSkill9None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot1LearnedSkill9None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot1LearnedSkill9None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot1LearnedSkill9None.TabIndex = 206;
             this.checkBoxCSDigimonPartySlot1LearnedSkill9None.UseVisualStyleBackColor = true;
@@ -7756,6 +7768,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot1LearnedSkill8None.Location = new System.Drawing.Point(415, 233);
             this.checkBoxCSDigimonPartySlot1LearnedSkill8None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot1LearnedSkill8None.Name = "checkBoxCSDigimonPartySlot1LearnedSkill8None";
+            this.checkBoxCSDigimonPartySlot1LearnedSkill8None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot1LearnedSkill8None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot1LearnedSkill8None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot1LearnedSkill8None.TabIndex = 205;
             this.checkBoxCSDigimonPartySlot1LearnedSkill8None.UseVisualStyleBackColor = true;
@@ -7766,6 +7779,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot1LearnedSkill7None.Location = new System.Drawing.Point(415, 203);
             this.checkBoxCSDigimonPartySlot1LearnedSkill7None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot1LearnedSkill7None.Name = "checkBoxCSDigimonPartySlot1LearnedSkill7None";
+            this.checkBoxCSDigimonPartySlot1LearnedSkill7None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot1LearnedSkill7None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot1LearnedSkill7None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot1LearnedSkill7None.TabIndex = 204;
             this.checkBoxCSDigimonPartySlot1LearnedSkill7None.UseVisualStyleBackColor = true;
@@ -7776,6 +7790,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot1LearnedSkill6None.Location = new System.Drawing.Point(415, 174);
             this.checkBoxCSDigimonPartySlot1LearnedSkill6None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot1LearnedSkill6None.Name = "checkBoxCSDigimonPartySlot1LearnedSkill6None";
+            this.checkBoxCSDigimonPartySlot1LearnedSkill6None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot1LearnedSkill6None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot1LearnedSkill6None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot1LearnedSkill6None.TabIndex = 203;
             this.checkBoxCSDigimonPartySlot1LearnedSkill6None.UseVisualStyleBackColor = true;
@@ -7786,6 +7801,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot1LearnedSkill5None.Location = new System.Drawing.Point(415, 143);
             this.checkBoxCSDigimonPartySlot1LearnedSkill5None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot1LearnedSkill5None.Name = "checkBoxCSDigimonPartySlot1LearnedSkill5None";
+            this.checkBoxCSDigimonPartySlot1LearnedSkill5None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot1LearnedSkill5None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot1LearnedSkill5None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot1LearnedSkill5None.TabIndex = 202;
             this.checkBoxCSDigimonPartySlot1LearnedSkill5None.UseVisualStyleBackColor = true;
@@ -7796,6 +7812,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot1LearnedSkill4None.Location = new System.Drawing.Point(415, 113);
             this.checkBoxCSDigimonPartySlot1LearnedSkill4None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot1LearnedSkill4None.Name = "checkBoxCSDigimonPartySlot1LearnedSkill4None";
+            this.checkBoxCSDigimonPartySlot1LearnedSkill4None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot1LearnedSkill4None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot1LearnedSkill4None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot1LearnedSkill4None.TabIndex = 201;
             this.checkBoxCSDigimonPartySlot1LearnedSkill4None.UseVisualStyleBackColor = true;
@@ -7806,6 +7823,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot1LearnedSkill3None.Location = new System.Drawing.Point(415, 82);
             this.checkBoxCSDigimonPartySlot1LearnedSkill3None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot1LearnedSkill3None.Name = "checkBoxCSDigimonPartySlot1LearnedSkill3None";
+            this.checkBoxCSDigimonPartySlot1LearnedSkill3None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot1LearnedSkill3None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot1LearnedSkill3None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot1LearnedSkill3None.TabIndex = 200;
             this.checkBoxCSDigimonPartySlot1LearnedSkill3None.UseVisualStyleBackColor = true;
@@ -7816,6 +7834,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot1LearnedSkill2None.Location = new System.Drawing.Point(415, 53);
             this.checkBoxCSDigimonPartySlot1LearnedSkill2None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot1LearnedSkill2None.Name = "checkBoxCSDigimonPartySlot1LearnedSkill2None";
+            this.checkBoxCSDigimonPartySlot1LearnedSkill2None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot1LearnedSkill2None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot1LearnedSkill2None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot1LearnedSkill2None.TabIndex = 199;
             this.checkBoxCSDigimonPartySlot1LearnedSkill2None.UseVisualStyleBackColor = true;
@@ -7835,6 +7854,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot1LearnedSkill1None.Location = new System.Drawing.Point(415, 23);
             this.checkBoxCSDigimonPartySlot1LearnedSkill1None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot1LearnedSkill1None.Name = "checkBoxCSDigimonPartySlot1LearnedSkill1None";
+            this.checkBoxCSDigimonPartySlot1LearnedSkill1None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot1LearnedSkill1None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot1LearnedSkill1None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot1LearnedSkill1None.TabIndex = 197;
             this.checkBoxCSDigimonPartySlot1LearnedSkill1None.UseVisualStyleBackColor = true;
@@ -28693,6 +28713,7 @@ namespace DigimonStorySaveEditor
             this.comboBoxCSDigimonPartySlot1ID.Location = new System.Drawing.Point(117, 6);
             this.comboBoxCSDigimonPartySlot1ID.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBoxCSDigimonPartySlot1ID.Name = "comboBoxCSDigimonPartySlot1ID";
+            this.comboBoxCSDigimonPartySlot1ID.SelectedIndexChanged += new System.EventHandler(this.comboBoxCSDigimonPartySlot1ID_SelectedIndexChanged);
             this.comboBoxCSDigimonPartySlot1ID.Size = new System.Drawing.Size(273, 24);
             this.comboBoxCSDigimonPartySlot1ID.TabIndex = 1;
             this.comboBoxCSDigimonPartySlot1ID.Tag = "";
@@ -28803,6 +28824,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot2None.Location = new System.Drawing.Point(803, 21);
             this.checkBoxCSDigimonPartySlot2None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot2None.Name = "checkBoxCSDigimonPartySlot2None";
+            this.checkBoxCSDigimonPartySlot2None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot2None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot2None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot2None.TabIndex = 171;
             this.checkBoxCSDigimonPartySlot2None.UseVisualStyleBackColor = true;
@@ -28885,6 +28907,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot2CurrentSkill6None.Location = new System.Drawing.Point(416, 174);
             this.checkBoxCSDigimonPartySlot2CurrentSkill6None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot2CurrentSkill6None.Name = "checkBoxCSDigimonPartySlot2CurrentSkill6None";
+            this.checkBoxCSDigimonPartySlot2CurrentSkill6None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot2CurrentSkill6None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot2CurrentSkill6None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot2CurrentSkill6None.TabIndex = 176;
             this.checkBoxCSDigimonPartySlot2CurrentSkill6None.UseVisualStyleBackColor = true;
@@ -28895,6 +28918,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot2CurrentSkill5None.Location = new System.Drawing.Point(416, 143);
             this.checkBoxCSDigimonPartySlot2CurrentSkill5None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot2CurrentSkill5None.Name = "checkBoxCSDigimonPartySlot2CurrentSkill5None";
+            this.checkBoxCSDigimonPartySlot2CurrentSkill5None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot2CurrentSkill5None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot2CurrentSkill5None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot2CurrentSkill5None.TabIndex = 175;
             this.checkBoxCSDigimonPartySlot2CurrentSkill5None.UseVisualStyleBackColor = true;
@@ -28905,6 +28929,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot2CurrentSkill4None.Location = new System.Drawing.Point(416, 113);
             this.checkBoxCSDigimonPartySlot2CurrentSkill4None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot2CurrentSkill4None.Name = "checkBoxCSDigimonPartySlot2CurrentSkill4None";
+            this.checkBoxCSDigimonPartySlot2CurrentSkill4None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot2CurrentSkill4None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot2CurrentSkill4None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot2CurrentSkill4None.TabIndex = 174;
             this.checkBoxCSDigimonPartySlot2CurrentSkill4None.UseVisualStyleBackColor = true;
@@ -28915,6 +28940,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot2CurrentSkill3None.Location = new System.Drawing.Point(416, 82);
             this.checkBoxCSDigimonPartySlot2CurrentSkill3None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot2CurrentSkill3None.Name = "checkBoxCSDigimonPartySlot2CurrentSkill3None";
+            this.checkBoxCSDigimonPartySlot2CurrentSkill3None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot2CurrentSkill3None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot2CurrentSkill3None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot2CurrentSkill3None.TabIndex = 173;
             this.checkBoxCSDigimonPartySlot2CurrentSkill3None.UseVisualStyleBackColor = true;
@@ -28925,6 +28951,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot2CurrentSkill2None.Location = new System.Drawing.Point(416, 53);
             this.checkBoxCSDigimonPartySlot2CurrentSkill2None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot2CurrentSkill2None.Name = "checkBoxCSDigimonPartySlot2CurrentSkill2None";
+            this.checkBoxCSDigimonPartySlot2CurrentSkill2None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot2CurrentSkill2None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot2CurrentSkill2None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot2CurrentSkill2None.TabIndex = 172;
             this.checkBoxCSDigimonPartySlot2CurrentSkill2None.UseVisualStyleBackColor = true;
@@ -28935,6 +28962,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot2CurrentSkill1None.Location = new System.Drawing.Point(416, 23);
             this.checkBoxCSDigimonPartySlot2CurrentSkill1None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot2CurrentSkill1None.Name = "checkBoxCSDigimonPartySlot2CurrentSkill1None";
+            this.checkBoxCSDigimonPartySlot2CurrentSkill1None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot2CurrentSkill1None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot2CurrentSkill1None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot2CurrentSkill1None.TabIndex = 170;
             this.checkBoxCSDigimonPartySlot2CurrentSkill1None.UseVisualStyleBackColor = true;
@@ -34846,6 +34874,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot2LearnedSkill20None.Location = new System.Drawing.Point(415, 593);
             this.checkBoxCSDigimonPartySlot2LearnedSkill20None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot2LearnedSkill20None.Name = "checkBoxCSDigimonPartySlot2LearnedSkill20None";
+            this.checkBoxCSDigimonPartySlot2LearnedSkill20None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot2LearnedSkill20None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot2LearnedSkill20None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot2LearnedSkill20None.TabIndex = 217;
             this.checkBoxCSDigimonPartySlot2LearnedSkill20None.UseVisualStyleBackColor = true;
@@ -34856,6 +34885,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot2LearnedSkill19None.Location = new System.Drawing.Point(415, 562);
             this.checkBoxCSDigimonPartySlot2LearnedSkill19None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot2LearnedSkill19None.Name = "checkBoxCSDigimonPartySlot2LearnedSkill19None";
+            this.checkBoxCSDigimonPartySlot2LearnedSkill19None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot2LearnedSkill19None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot2LearnedSkill19None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot2LearnedSkill19None.TabIndex = 216;
             this.checkBoxCSDigimonPartySlot2LearnedSkill19None.UseVisualStyleBackColor = true;
@@ -34866,6 +34896,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot2LearnedSkill18None.Location = new System.Drawing.Point(415, 533);
             this.checkBoxCSDigimonPartySlot2LearnedSkill18None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot2LearnedSkill18None.Name = "checkBoxCSDigimonPartySlot2LearnedSkill18None";
+            this.checkBoxCSDigimonPartySlot2LearnedSkill18None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot2LearnedSkill18None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot2LearnedSkill18None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot2LearnedSkill18None.TabIndex = 215;
             this.checkBoxCSDigimonPartySlot2LearnedSkill18None.UseVisualStyleBackColor = true;
@@ -34876,6 +34907,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot2LearnedSkill17None.Location = new System.Drawing.Point(415, 503);
             this.checkBoxCSDigimonPartySlot2LearnedSkill17None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot2LearnedSkill17None.Name = "checkBoxCSDigimonPartySlot2LearnedSkill17None";
+            this.checkBoxCSDigimonPartySlot2LearnedSkill17None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot2LearnedSkill17None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot2LearnedSkill17None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot2LearnedSkill17None.TabIndex = 214;
             this.checkBoxCSDigimonPartySlot2LearnedSkill17None.UseVisualStyleBackColor = true;
@@ -34886,6 +34918,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot2LearnedSkill16None.Location = new System.Drawing.Point(415, 473);
             this.checkBoxCSDigimonPartySlot2LearnedSkill16None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot2LearnedSkill16None.Name = "checkBoxCSDigimonPartySlot2LearnedSkill16None";
+            this.checkBoxCSDigimonPartySlot2LearnedSkill16None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot2LearnedSkill16None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot2LearnedSkill16None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot2LearnedSkill16None.TabIndex = 213;
             this.checkBoxCSDigimonPartySlot2LearnedSkill16None.UseVisualStyleBackColor = true;
@@ -34896,6 +34929,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot2LearnedSkill15None.Location = new System.Drawing.Point(415, 443);
             this.checkBoxCSDigimonPartySlot2LearnedSkill15None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot2LearnedSkill15None.Name = "checkBoxCSDigimonPartySlot2LearnedSkill15None";
+            this.checkBoxCSDigimonPartySlot2LearnedSkill15None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot2LearnedSkill15None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot2LearnedSkill15None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot2LearnedSkill15None.TabIndex = 212;
             this.checkBoxCSDigimonPartySlot2LearnedSkill15None.UseVisualStyleBackColor = true;
@@ -34906,6 +34940,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot2LearnedSkill14None.Location = new System.Drawing.Point(415, 414);
             this.checkBoxCSDigimonPartySlot2LearnedSkill14None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot2LearnedSkill14None.Name = "checkBoxCSDigimonPartySlot2LearnedSkill14None";
+            this.checkBoxCSDigimonPartySlot2LearnedSkill14None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot2LearnedSkill14None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot2LearnedSkill14None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot2LearnedSkill14None.TabIndex = 211;
             this.checkBoxCSDigimonPartySlot2LearnedSkill14None.UseVisualStyleBackColor = true;
@@ -34916,6 +34951,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot2LearnedSkill13None.Location = new System.Drawing.Point(415, 383);
             this.checkBoxCSDigimonPartySlot2LearnedSkill13None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot2LearnedSkill13None.Name = "checkBoxCSDigimonPartySlot2LearnedSkill13None";
+            this.checkBoxCSDigimonPartySlot2LearnedSkill13None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot2LearnedSkill13None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot2LearnedSkill13None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot2LearnedSkill13None.TabIndex = 210;
             this.checkBoxCSDigimonPartySlot2LearnedSkill13None.UseVisualStyleBackColor = true;
@@ -34926,6 +34962,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot2LearnedSkill12None.Location = new System.Drawing.Point(415, 353);
             this.checkBoxCSDigimonPartySlot2LearnedSkill12None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot2LearnedSkill12None.Name = "checkBoxCSDigimonPartySlot2LearnedSkill12None";
+            this.checkBoxCSDigimonPartySlot2LearnedSkill12None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot2LearnedSkill12None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot2LearnedSkill12None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot2LearnedSkill12None.TabIndex = 209;
             this.checkBoxCSDigimonPartySlot2LearnedSkill12None.UseVisualStyleBackColor = true;
@@ -34936,6 +34973,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot2LearnedSkill11None.Location = new System.Drawing.Point(415, 322);
             this.checkBoxCSDigimonPartySlot2LearnedSkill11None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot2LearnedSkill11None.Name = "checkBoxCSDigimonPartySlot2LearnedSkill11None";
+            this.checkBoxCSDigimonPartySlot2LearnedSkill11None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot2LearnedSkill11None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot2LearnedSkill11None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot2LearnedSkill11None.TabIndex = 208;
             this.checkBoxCSDigimonPartySlot2LearnedSkill11None.UseVisualStyleBackColor = true;
@@ -34946,6 +34984,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot2LearnedSkill10None.Location = new System.Drawing.Point(415, 293);
             this.checkBoxCSDigimonPartySlot2LearnedSkill10None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot2LearnedSkill10None.Name = "checkBoxCSDigimonPartySlot2LearnedSkill10None";
+            this.checkBoxCSDigimonPartySlot2LearnedSkill10None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot2LearnedSkill10None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot2LearnedSkill10None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot2LearnedSkill10None.TabIndex = 207;
             this.checkBoxCSDigimonPartySlot2LearnedSkill10None.UseVisualStyleBackColor = true;
@@ -34956,6 +34995,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot2LearnedSkill9None.Location = new System.Drawing.Point(415, 263);
             this.checkBoxCSDigimonPartySlot2LearnedSkill9None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot2LearnedSkill9None.Name = "checkBoxCSDigimonPartySlot2LearnedSkill9None";
+            this.checkBoxCSDigimonPartySlot2LearnedSkill9None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot2LearnedSkill9None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot2LearnedSkill9None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot2LearnedSkill9None.TabIndex = 206;
             this.checkBoxCSDigimonPartySlot2LearnedSkill9None.UseVisualStyleBackColor = true;
@@ -34966,6 +35006,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot2LearnedSkill8None.Location = new System.Drawing.Point(415, 233);
             this.checkBoxCSDigimonPartySlot2LearnedSkill8None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot2LearnedSkill8None.Name = "checkBoxCSDigimonPartySlot2LearnedSkill8None";
+            this.checkBoxCSDigimonPartySlot2LearnedSkill8None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot2LearnedSkill8None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot2LearnedSkill8None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot2LearnedSkill8None.TabIndex = 205;
             this.checkBoxCSDigimonPartySlot2LearnedSkill8None.UseVisualStyleBackColor = true;
@@ -34976,6 +35017,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot2LearnedSkill7None.Location = new System.Drawing.Point(415, 203);
             this.checkBoxCSDigimonPartySlot2LearnedSkill7None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot2LearnedSkill7None.Name = "checkBoxCSDigimonPartySlot2LearnedSkill7None";
+            this.checkBoxCSDigimonPartySlot2LearnedSkill7None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot2LearnedSkill7None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot2LearnedSkill7None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot2LearnedSkill7None.TabIndex = 204;
             this.checkBoxCSDigimonPartySlot2LearnedSkill7None.UseVisualStyleBackColor = true;
@@ -34986,6 +35028,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot2LearnedSkill6None.Location = new System.Drawing.Point(415, 174);
             this.checkBoxCSDigimonPartySlot2LearnedSkill6None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot2LearnedSkill6None.Name = "checkBoxCSDigimonPartySlot2LearnedSkill6None";
+            this.checkBoxCSDigimonPartySlot2LearnedSkill6None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot2LearnedSkill6None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot2LearnedSkill6None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot2LearnedSkill6None.TabIndex = 203;
             this.checkBoxCSDigimonPartySlot2LearnedSkill6None.UseVisualStyleBackColor = true;
@@ -34996,6 +35039,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot2LearnedSkill5None.Location = new System.Drawing.Point(415, 143);
             this.checkBoxCSDigimonPartySlot2LearnedSkill5None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot2LearnedSkill5None.Name = "checkBoxCSDigimonPartySlot2LearnedSkill5None";
+            this.checkBoxCSDigimonPartySlot2LearnedSkill5None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot2LearnedSkill5None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot2LearnedSkill5None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot2LearnedSkill5None.TabIndex = 202;
             this.checkBoxCSDigimonPartySlot2LearnedSkill5None.UseVisualStyleBackColor = true;
@@ -35006,6 +35050,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot2LearnedSkill4None.Location = new System.Drawing.Point(415, 113);
             this.checkBoxCSDigimonPartySlot2LearnedSkill4None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot2LearnedSkill4None.Name = "checkBoxCSDigimonPartySlot2LearnedSkill4None";
+            this.checkBoxCSDigimonPartySlot2LearnedSkill4None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot2LearnedSkill4None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot2LearnedSkill4None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot2LearnedSkill4None.TabIndex = 201;
             this.checkBoxCSDigimonPartySlot2LearnedSkill4None.UseVisualStyleBackColor = true;
@@ -35016,6 +35061,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot2LearnedSkill3None.Location = new System.Drawing.Point(415, 82);
             this.checkBoxCSDigimonPartySlot2LearnedSkill3None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot2LearnedSkill3None.Name = "checkBoxCSDigimonPartySlot2LearnedSkill3None";
+            this.checkBoxCSDigimonPartySlot2LearnedSkill3None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot2LearnedSkill3None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot2LearnedSkill3None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot2LearnedSkill3None.TabIndex = 200;
             this.checkBoxCSDigimonPartySlot2LearnedSkill3None.UseVisualStyleBackColor = true;
@@ -35026,6 +35072,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot2LearnedSkill2None.Location = new System.Drawing.Point(415, 53);
             this.checkBoxCSDigimonPartySlot2LearnedSkill2None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot2LearnedSkill2None.Name = "checkBoxCSDigimonPartySlot2LearnedSkill2None";
+            this.checkBoxCSDigimonPartySlot2LearnedSkill2None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot2LearnedSkill2None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot2LearnedSkill2None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot2LearnedSkill2None.TabIndex = 199;
             this.checkBoxCSDigimonPartySlot2LearnedSkill2None.UseVisualStyleBackColor = true;
@@ -35045,6 +35092,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot2LearnedSkill1None.Location = new System.Drawing.Point(415, 23);
             this.checkBoxCSDigimonPartySlot2LearnedSkill1None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot2LearnedSkill1None.Name = "checkBoxCSDigimonPartySlot2LearnedSkill1None";
+            this.checkBoxCSDigimonPartySlot2LearnedSkill1None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot2LearnedSkill1None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot2LearnedSkill1None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot2LearnedSkill1None.TabIndex = 197;
             this.checkBoxCSDigimonPartySlot2LearnedSkill1None.UseVisualStyleBackColor = true;
@@ -55903,6 +55951,7 @@ namespace DigimonStorySaveEditor
             this.comboBoxCSDigimonPartySlot2ID.Location = new System.Drawing.Point(117, 6);
             this.comboBoxCSDigimonPartySlot2ID.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBoxCSDigimonPartySlot2ID.Name = "comboBoxCSDigimonPartySlot2ID";
+            this.comboBoxCSDigimonPartySlot2ID.SelectedIndexChanged += new System.EventHandler(this.comboBoxCSDigimonPartySlot2ID_SelectedIndexChanged);
             this.comboBoxCSDigimonPartySlot2ID.Size = new System.Drawing.Size(273, 24);
             this.comboBoxCSDigimonPartySlot2ID.TabIndex = 1;
             this.comboBoxCSDigimonPartySlot2ID.Tag = "";
@@ -56013,6 +56062,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot3None.Location = new System.Drawing.Point(803, 21);
             this.checkBoxCSDigimonPartySlot3None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot3None.Name = "checkBoxCSDigimonPartySlot3None";
+            this.checkBoxCSDigimonPartySlot3None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot3None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot3None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot3None.TabIndex = 171;
             this.checkBoxCSDigimonPartySlot3None.UseVisualStyleBackColor = true;
@@ -56095,6 +56145,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot3CurrentSkill6None.Location = new System.Drawing.Point(416, 174);
             this.checkBoxCSDigimonPartySlot3CurrentSkill6None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot3CurrentSkill6None.Name = "checkBoxCSDigimonPartySlot3CurrentSkill6None";
+            this.checkBoxCSDigimonPartySlot3CurrentSkill6None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot3CurrentSkill6None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot3CurrentSkill6None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot3CurrentSkill6None.TabIndex = 176;
             this.checkBoxCSDigimonPartySlot3CurrentSkill6None.UseVisualStyleBackColor = true;
@@ -56105,6 +56156,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot3CurrentSkill5None.Location = new System.Drawing.Point(416, 143);
             this.checkBoxCSDigimonPartySlot3CurrentSkill5None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot3CurrentSkill5None.Name = "checkBoxCSDigimonPartySlot3CurrentSkill5None";
+            this.checkBoxCSDigimonPartySlot3CurrentSkill5None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot3CurrentSkill5None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot3CurrentSkill5None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot3CurrentSkill5None.TabIndex = 175;
             this.checkBoxCSDigimonPartySlot3CurrentSkill5None.UseVisualStyleBackColor = true;
@@ -56115,6 +56167,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot3CurrentSkill4None.Location = new System.Drawing.Point(416, 113);
             this.checkBoxCSDigimonPartySlot3CurrentSkill4None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot3CurrentSkill4None.Name = "checkBoxCSDigimonPartySlot3CurrentSkill4None";
+            this.checkBoxCSDigimonPartySlot3CurrentSkill4None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot3CurrentSkill4None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot3CurrentSkill4None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot3CurrentSkill4None.TabIndex = 174;
             this.checkBoxCSDigimonPartySlot3CurrentSkill4None.UseVisualStyleBackColor = true;
@@ -56125,6 +56178,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot3CurrentSkill3None.Location = new System.Drawing.Point(416, 82);
             this.checkBoxCSDigimonPartySlot3CurrentSkill3None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot3CurrentSkill3None.Name = "checkBoxCSDigimonPartySlot3CurrentSkill3None";
+            this.checkBoxCSDigimonPartySlot3CurrentSkill3None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot3CurrentSkill3None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot3CurrentSkill3None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot3CurrentSkill3None.TabIndex = 173;
             this.checkBoxCSDigimonPartySlot3CurrentSkill3None.UseVisualStyleBackColor = true;
@@ -56135,6 +56189,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot3CurrentSkill2None.Location = new System.Drawing.Point(416, 53);
             this.checkBoxCSDigimonPartySlot3CurrentSkill2None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot3CurrentSkill2None.Name = "checkBoxCSDigimonPartySlot3CurrentSkill2None";
+            this.checkBoxCSDigimonPartySlot3CurrentSkill2None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot3CurrentSkill2None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot3CurrentSkill2None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot3CurrentSkill2None.TabIndex = 172;
             this.checkBoxCSDigimonPartySlot3CurrentSkill2None.UseVisualStyleBackColor = true;
@@ -56145,6 +56200,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot3CurrentSkill1None.Location = new System.Drawing.Point(416, 23);
             this.checkBoxCSDigimonPartySlot3CurrentSkill1None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot3CurrentSkill1None.Name = "checkBoxCSDigimonPartySlot3CurrentSkill1None";
+            this.checkBoxCSDigimonPartySlot3CurrentSkill1None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot3CurrentSkill1None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot3CurrentSkill1None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot3CurrentSkill1None.TabIndex = 170;
             this.checkBoxCSDigimonPartySlot3CurrentSkill1None.UseVisualStyleBackColor = true;
@@ -62056,6 +62112,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot3LearnedSkill20None.Location = new System.Drawing.Point(415, 593);
             this.checkBoxCSDigimonPartySlot3LearnedSkill20None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot3LearnedSkill20None.Name = "checkBoxCSDigimonPartySlot3LearnedSkill20None";
+            this.checkBoxCSDigimonPartySlot3LearnedSkill20None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot3LearnedSkill20None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot3LearnedSkill20None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot3LearnedSkill20None.TabIndex = 217;
             this.checkBoxCSDigimonPartySlot3LearnedSkill20None.UseVisualStyleBackColor = true;
@@ -62066,6 +62123,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot3LearnedSkill19None.Location = new System.Drawing.Point(415, 562);
             this.checkBoxCSDigimonPartySlot3LearnedSkill19None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot3LearnedSkill19None.Name = "checkBoxCSDigimonPartySlot3LearnedSkill19None";
+            this.checkBoxCSDigimonPartySlot3LearnedSkill19None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot3LearnedSkill19None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot3LearnedSkill19None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot3LearnedSkill19None.TabIndex = 216;
             this.checkBoxCSDigimonPartySlot3LearnedSkill19None.UseVisualStyleBackColor = true;
@@ -62076,6 +62134,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot3LearnedSkill18None.Location = new System.Drawing.Point(415, 533);
             this.checkBoxCSDigimonPartySlot3LearnedSkill18None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot3LearnedSkill18None.Name = "checkBoxCSDigimonPartySlot3LearnedSkill18None";
+            this.checkBoxCSDigimonPartySlot3LearnedSkill18None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot3LearnedSkill18None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot3LearnedSkill18None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot3LearnedSkill18None.TabIndex = 215;
             this.checkBoxCSDigimonPartySlot3LearnedSkill18None.UseVisualStyleBackColor = true;
@@ -62086,6 +62145,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot3LearnedSkill17None.Location = new System.Drawing.Point(415, 503);
             this.checkBoxCSDigimonPartySlot3LearnedSkill17None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot3LearnedSkill17None.Name = "checkBoxCSDigimonPartySlot3LearnedSkill17None";
+            this.checkBoxCSDigimonPartySlot3LearnedSkill17None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot3LearnedSkill17None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot3LearnedSkill17None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot3LearnedSkill17None.TabIndex = 214;
             this.checkBoxCSDigimonPartySlot3LearnedSkill17None.UseVisualStyleBackColor = true;
@@ -62096,6 +62156,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot3LearnedSkill16None.Location = new System.Drawing.Point(415, 473);
             this.checkBoxCSDigimonPartySlot3LearnedSkill16None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot3LearnedSkill16None.Name = "checkBoxCSDigimonPartySlot3LearnedSkill16None";
+            this.checkBoxCSDigimonPartySlot3LearnedSkill16None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot3LearnedSkill16None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot3LearnedSkill16None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot3LearnedSkill16None.TabIndex = 213;
             this.checkBoxCSDigimonPartySlot3LearnedSkill16None.UseVisualStyleBackColor = true;
@@ -62106,6 +62167,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot3LearnedSkill15None.Location = new System.Drawing.Point(415, 443);
             this.checkBoxCSDigimonPartySlot3LearnedSkill15None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot3LearnedSkill15None.Name = "checkBoxCSDigimonPartySlot3LearnedSkill15None";
+            this.checkBoxCSDigimonPartySlot3LearnedSkill15None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot3LearnedSkill15None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot3LearnedSkill15None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot3LearnedSkill15None.TabIndex = 212;
             this.checkBoxCSDigimonPartySlot3LearnedSkill15None.UseVisualStyleBackColor = true;
@@ -62116,6 +62178,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot3LearnedSkill14None.Location = new System.Drawing.Point(415, 414);
             this.checkBoxCSDigimonPartySlot3LearnedSkill14None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot3LearnedSkill14None.Name = "checkBoxCSDigimonPartySlot3LearnedSkill14None";
+            this.checkBoxCSDigimonPartySlot3LearnedSkill14None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot3LearnedSkill14None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot3LearnedSkill14None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot3LearnedSkill14None.TabIndex = 211;
             this.checkBoxCSDigimonPartySlot3LearnedSkill14None.UseVisualStyleBackColor = true;
@@ -62126,6 +62189,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot3LearnedSkill13None.Location = new System.Drawing.Point(415, 383);
             this.checkBoxCSDigimonPartySlot3LearnedSkill13None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot3LearnedSkill13None.Name = "checkBoxCSDigimonPartySlot3LearnedSkill13None";
+            this.checkBoxCSDigimonPartySlot3LearnedSkill13None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot3LearnedSkill13None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot3LearnedSkill13None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot3LearnedSkill13None.TabIndex = 210;
             this.checkBoxCSDigimonPartySlot3LearnedSkill13None.UseVisualStyleBackColor = true;
@@ -62136,6 +62200,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot3LearnedSkill12None.Location = new System.Drawing.Point(415, 353);
             this.checkBoxCSDigimonPartySlot3LearnedSkill12None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot3LearnedSkill12None.Name = "checkBoxCSDigimonPartySlot3LearnedSkill12None";
+            this.checkBoxCSDigimonPartySlot3LearnedSkill12None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot3LearnedSkill12None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot3LearnedSkill12None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot3LearnedSkill12None.TabIndex = 209;
             this.checkBoxCSDigimonPartySlot3LearnedSkill12None.UseVisualStyleBackColor = true;
@@ -62146,6 +62211,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot3LearnedSkill11None.Location = new System.Drawing.Point(415, 322);
             this.checkBoxCSDigimonPartySlot3LearnedSkill11None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot3LearnedSkill11None.Name = "checkBoxCSDigimonPartySlot3LearnedSkill11None";
+            this.checkBoxCSDigimonPartySlot3LearnedSkill11None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot3LearnedSkill11None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot3LearnedSkill11None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot3LearnedSkill11None.TabIndex = 208;
             this.checkBoxCSDigimonPartySlot3LearnedSkill11None.UseVisualStyleBackColor = true;
@@ -62156,6 +62222,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot3LearnedSkill10None.Location = new System.Drawing.Point(415, 293);
             this.checkBoxCSDigimonPartySlot3LearnedSkill10None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot3LearnedSkill10None.Name = "checkBoxCSDigimonPartySlot3LearnedSkill10None";
+            this.checkBoxCSDigimonPartySlot3LearnedSkill10None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot3LearnedSkill10None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot3LearnedSkill10None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot3LearnedSkill10None.TabIndex = 207;
             this.checkBoxCSDigimonPartySlot3LearnedSkill10None.UseVisualStyleBackColor = true;
@@ -62166,6 +62233,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot3LearnedSkill9None.Location = new System.Drawing.Point(415, 263);
             this.checkBoxCSDigimonPartySlot3LearnedSkill9None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot3LearnedSkill9None.Name = "checkBoxCSDigimonPartySlot3LearnedSkill9None";
+            this.checkBoxCSDigimonPartySlot3LearnedSkill9None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot3LearnedSkill9None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot3LearnedSkill9None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot3LearnedSkill9None.TabIndex = 206;
             this.checkBoxCSDigimonPartySlot3LearnedSkill9None.UseVisualStyleBackColor = true;
@@ -62176,6 +62244,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot3LearnedSkill8None.Location = new System.Drawing.Point(415, 233);
             this.checkBoxCSDigimonPartySlot3LearnedSkill8None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot3LearnedSkill8None.Name = "checkBoxCSDigimonPartySlot3LearnedSkill8None";
+            this.checkBoxCSDigimonPartySlot3LearnedSkill8None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot3LearnedSkill8None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot3LearnedSkill8None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot3LearnedSkill8None.TabIndex = 205;
             this.checkBoxCSDigimonPartySlot3LearnedSkill8None.UseVisualStyleBackColor = true;
@@ -62186,6 +62255,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot3LearnedSkill7None.Location = new System.Drawing.Point(415, 203);
             this.checkBoxCSDigimonPartySlot3LearnedSkill7None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot3LearnedSkill7None.Name = "checkBoxCSDigimonPartySlot3LearnedSkill7None";
+            this.checkBoxCSDigimonPartySlot3LearnedSkill7None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot3LearnedSkill7None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot3LearnedSkill7None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot3LearnedSkill7None.TabIndex = 204;
             this.checkBoxCSDigimonPartySlot3LearnedSkill7None.UseVisualStyleBackColor = true;
@@ -62196,6 +62266,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot3LearnedSkill6None.Location = new System.Drawing.Point(415, 174);
             this.checkBoxCSDigimonPartySlot3LearnedSkill6None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot3LearnedSkill6None.Name = "checkBoxCSDigimonPartySlot3LearnedSkill6None";
+            this.checkBoxCSDigimonPartySlot3LearnedSkill6None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot3LearnedSkill6None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot3LearnedSkill6None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot3LearnedSkill6None.TabIndex = 203;
             this.checkBoxCSDigimonPartySlot3LearnedSkill6None.UseVisualStyleBackColor = true;
@@ -62206,6 +62277,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot3LearnedSkill5None.Location = new System.Drawing.Point(415, 143);
             this.checkBoxCSDigimonPartySlot3LearnedSkill5None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot3LearnedSkill5None.Name = "checkBoxCSDigimonPartySlot3LearnedSkill5None";
+            this.checkBoxCSDigimonPartySlot3LearnedSkill5None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot3LearnedSkill5None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot3LearnedSkill5None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot3LearnedSkill5None.TabIndex = 202;
             this.checkBoxCSDigimonPartySlot3LearnedSkill5None.UseVisualStyleBackColor = true;
@@ -62216,6 +62288,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot3LearnedSkill4None.Location = new System.Drawing.Point(415, 113);
             this.checkBoxCSDigimonPartySlot3LearnedSkill4None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot3LearnedSkill4None.Name = "checkBoxCSDigimonPartySlot3LearnedSkill4None";
+            this.checkBoxCSDigimonPartySlot3LearnedSkill4None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot3LearnedSkill4None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot3LearnedSkill4None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot3LearnedSkill4None.TabIndex = 201;
             this.checkBoxCSDigimonPartySlot3LearnedSkill4None.UseVisualStyleBackColor = true;
@@ -62226,6 +62299,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot3LearnedSkill3None.Location = new System.Drawing.Point(415, 82);
             this.checkBoxCSDigimonPartySlot3LearnedSkill3None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot3LearnedSkill3None.Name = "checkBoxCSDigimonPartySlot3LearnedSkill3None";
+            this.checkBoxCSDigimonPartySlot3LearnedSkill3None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot3LearnedSkill3None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot3LearnedSkill3None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot3LearnedSkill3None.TabIndex = 200;
             this.checkBoxCSDigimonPartySlot3LearnedSkill3None.UseVisualStyleBackColor = true;
@@ -62236,6 +62310,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot3LearnedSkill2None.Location = new System.Drawing.Point(415, 53);
             this.checkBoxCSDigimonPartySlot3LearnedSkill2None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot3LearnedSkill2None.Name = "checkBoxCSDigimonPartySlot3LearnedSkill2None";
+            this.checkBoxCSDigimonPartySlot3LearnedSkill2None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot3LearnedSkill2None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot3LearnedSkill2None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot3LearnedSkill2None.TabIndex = 199;
             this.checkBoxCSDigimonPartySlot3LearnedSkill2None.UseVisualStyleBackColor = true;
@@ -62255,6 +62330,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxCSDigimonPartySlot3LearnedSkill1None.Location = new System.Drawing.Point(415, 23);
             this.checkBoxCSDigimonPartySlot3LearnedSkill1None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxCSDigimonPartySlot3LearnedSkill1None.Name = "checkBoxCSDigimonPartySlot3LearnedSkill1None";
+            this.checkBoxCSDigimonPartySlot3LearnedSkill1None.CheckedChanged += new System.EventHandler(this.checkBoxCSDigimonPartySlot3LearnedSkill1None_CheckedChanged);
             this.checkBoxCSDigimonPartySlot3LearnedSkill1None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxCSDigimonPartySlot3LearnedSkill1None.TabIndex = 197;
             this.checkBoxCSDigimonPartySlot3LearnedSkill1None.UseVisualStyleBackColor = true;
@@ -83113,6 +83189,7 @@ namespace DigimonStorySaveEditor
             this.comboBoxCSDigimonPartySlot3ID.Location = new System.Drawing.Point(117, 6);
             this.comboBoxCSDigimonPartySlot3ID.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBoxCSDigimonPartySlot3ID.Name = "comboBoxCSDigimonPartySlot3ID";
+            this.comboBoxCSDigimonPartySlot3ID.SelectedIndexChanged += new System.EventHandler(this.comboBoxCSDigimonPartySlot3ID_SelectedIndexChanged);
             this.comboBoxCSDigimonPartySlot3ID.Size = new System.Drawing.Size(273, 24);
             this.comboBoxCSDigimonPartySlot3ID.TabIndex = 1;
             this.comboBoxCSDigimonPartySlot3ID.Tag = "";
@@ -83474,6 +83551,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot1None.Location = new System.Drawing.Point(803, 21);
             this.checkBoxHMDigimonPartySlot1None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot1None.Name = "checkBoxHMDigimonPartySlot1None";
+            this.checkBoxHMDigimonPartySlot1None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot1None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot1None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot1None.TabIndex = 171;
             this.checkBoxHMDigimonPartySlot1None.UseVisualStyleBackColor = true;
@@ -83556,6 +83634,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot1CurrentSkill6None.Location = new System.Drawing.Point(416, 174);
             this.checkBoxHMDigimonPartySlot1CurrentSkill6None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot1CurrentSkill6None.Name = "checkBoxHMDigimonPartySlot1CurrentSkill6None";
+            this.checkBoxHMDigimonPartySlot1CurrentSkill6None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot1CurrentSkill6None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot1CurrentSkill6None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot1CurrentSkill6None.TabIndex = 176;
             this.checkBoxHMDigimonPartySlot1CurrentSkill6None.UseVisualStyleBackColor = true;
@@ -83566,6 +83645,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot1CurrentSkill5None.Location = new System.Drawing.Point(416, 143);
             this.checkBoxHMDigimonPartySlot1CurrentSkill5None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot1CurrentSkill5None.Name = "checkBoxHMDigimonPartySlot1CurrentSkill5None";
+            this.checkBoxHMDigimonPartySlot1CurrentSkill5None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot1CurrentSkill5None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot1CurrentSkill5None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot1CurrentSkill5None.TabIndex = 175;
             this.checkBoxHMDigimonPartySlot1CurrentSkill5None.UseVisualStyleBackColor = true;
@@ -83576,6 +83656,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot1CurrentSkill4None.Location = new System.Drawing.Point(416, 113);
             this.checkBoxHMDigimonPartySlot1CurrentSkill4None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot1CurrentSkill4None.Name = "checkBoxHMDigimonPartySlot1CurrentSkill4None";
+            this.checkBoxHMDigimonPartySlot1CurrentSkill4None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot1CurrentSkill4None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot1CurrentSkill4None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot1CurrentSkill4None.TabIndex = 174;
             this.checkBoxHMDigimonPartySlot1CurrentSkill4None.UseVisualStyleBackColor = true;
@@ -83586,6 +83667,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot1CurrentSkill3None.Location = new System.Drawing.Point(416, 82);
             this.checkBoxHMDigimonPartySlot1CurrentSkill3None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot1CurrentSkill3None.Name = "checkBoxHMDigimonPartySlot1CurrentSkill3None";
+            this.checkBoxHMDigimonPartySlot1CurrentSkill3None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot1CurrentSkill3None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot1CurrentSkill3None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot1CurrentSkill3None.TabIndex = 173;
             this.checkBoxHMDigimonPartySlot1CurrentSkill3None.UseVisualStyleBackColor = true;
@@ -83596,6 +83678,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot1CurrentSkill2None.Location = new System.Drawing.Point(416, 53);
             this.checkBoxHMDigimonPartySlot1CurrentSkill2None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot1CurrentSkill2None.Name = "checkBoxHMDigimonPartySlot1CurrentSkill2None";
+            this.checkBoxHMDigimonPartySlot1CurrentSkill2None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot1CurrentSkill2None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot1CurrentSkill2None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot1CurrentSkill2None.TabIndex = 172;
             this.checkBoxHMDigimonPartySlot1CurrentSkill2None.UseVisualStyleBackColor = true;
@@ -83606,6 +83689,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot1CurrentSkill1None.Location = new System.Drawing.Point(416, 23);
             this.checkBoxHMDigimonPartySlot1CurrentSkill1None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot1CurrentSkill1None.Name = "checkBoxHMDigimonPartySlot1CurrentSkill1None";
+            this.checkBoxHMDigimonPartySlot1CurrentSkill1None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot1CurrentSkill1None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot1CurrentSkill1None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot1CurrentSkill1None.TabIndex = 170;
             this.checkBoxHMDigimonPartySlot1CurrentSkill1None.UseVisualStyleBackColor = true;
@@ -89517,6 +89601,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot1LearnedSkill20None.Location = new System.Drawing.Point(415, 593);
             this.checkBoxHMDigimonPartySlot1LearnedSkill20None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot1LearnedSkill20None.Name = "checkBoxHMDigimonPartySlot1LearnedSkill20None";
+            this.checkBoxHMDigimonPartySlot1LearnedSkill20None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot1LearnedSkill20None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot1LearnedSkill20None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot1LearnedSkill20None.TabIndex = 217;
             this.checkBoxHMDigimonPartySlot1LearnedSkill20None.UseVisualStyleBackColor = true;
@@ -89527,6 +89612,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot1LearnedSkill19None.Location = new System.Drawing.Point(415, 562);
             this.checkBoxHMDigimonPartySlot1LearnedSkill19None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot1LearnedSkill19None.Name = "checkBoxHMDigimonPartySlot1LearnedSkill19None";
+            this.checkBoxHMDigimonPartySlot1LearnedSkill19None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot1LearnedSkill19None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot1LearnedSkill19None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot1LearnedSkill19None.TabIndex = 216;
             this.checkBoxHMDigimonPartySlot1LearnedSkill19None.UseVisualStyleBackColor = true;
@@ -89537,6 +89623,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot1LearnedSkill18None.Location = new System.Drawing.Point(415, 533);
             this.checkBoxHMDigimonPartySlot1LearnedSkill18None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot1LearnedSkill18None.Name = "checkBoxHMDigimonPartySlot1LearnedSkill18None";
+            this.checkBoxHMDigimonPartySlot1LearnedSkill18None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot1LearnedSkill18None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot1LearnedSkill18None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot1LearnedSkill18None.TabIndex = 215;
             this.checkBoxHMDigimonPartySlot1LearnedSkill18None.UseVisualStyleBackColor = true;
@@ -89547,6 +89634,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot1LearnedSkill17None.Location = new System.Drawing.Point(415, 503);
             this.checkBoxHMDigimonPartySlot1LearnedSkill17None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot1LearnedSkill17None.Name = "checkBoxHMDigimonPartySlot1LearnedSkill17None";
+            this.checkBoxHMDigimonPartySlot1LearnedSkill17None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot1LearnedSkill17None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot1LearnedSkill17None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot1LearnedSkill17None.TabIndex = 214;
             this.checkBoxHMDigimonPartySlot1LearnedSkill17None.UseVisualStyleBackColor = true;
@@ -89557,6 +89645,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot1LearnedSkill16None.Location = new System.Drawing.Point(415, 473);
             this.checkBoxHMDigimonPartySlot1LearnedSkill16None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot1LearnedSkill16None.Name = "checkBoxHMDigimonPartySlot1LearnedSkill16None";
+            this.checkBoxHMDigimonPartySlot1LearnedSkill16None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot1LearnedSkill16None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot1LearnedSkill16None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot1LearnedSkill16None.TabIndex = 213;
             this.checkBoxHMDigimonPartySlot1LearnedSkill16None.UseVisualStyleBackColor = true;
@@ -89567,6 +89656,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot1LearnedSkill15None.Location = new System.Drawing.Point(415, 443);
             this.checkBoxHMDigimonPartySlot1LearnedSkill15None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot1LearnedSkill15None.Name = "checkBoxHMDigimonPartySlot1LearnedSkill15None";
+            this.checkBoxHMDigimonPartySlot1LearnedSkill15None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot1LearnedSkill15None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot1LearnedSkill15None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot1LearnedSkill15None.TabIndex = 212;
             this.checkBoxHMDigimonPartySlot1LearnedSkill15None.UseVisualStyleBackColor = true;
@@ -89577,6 +89667,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot1LearnedSkill14None.Location = new System.Drawing.Point(415, 414);
             this.checkBoxHMDigimonPartySlot1LearnedSkill14None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot1LearnedSkill14None.Name = "checkBoxHMDigimonPartySlot1LearnedSkill14None";
+            this.checkBoxHMDigimonPartySlot1LearnedSkill14None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot1LearnedSkill14None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot1LearnedSkill14None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot1LearnedSkill14None.TabIndex = 211;
             this.checkBoxHMDigimonPartySlot1LearnedSkill14None.UseVisualStyleBackColor = true;
@@ -89587,6 +89678,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot1LearnedSkill13None.Location = new System.Drawing.Point(415, 383);
             this.checkBoxHMDigimonPartySlot1LearnedSkill13None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot1LearnedSkill13None.Name = "checkBoxHMDigimonPartySlot1LearnedSkill13None";
+            this.checkBoxHMDigimonPartySlot1LearnedSkill13None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot1LearnedSkill13None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot1LearnedSkill13None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot1LearnedSkill13None.TabIndex = 210;
             this.checkBoxHMDigimonPartySlot1LearnedSkill13None.UseVisualStyleBackColor = true;
@@ -89597,6 +89689,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot1LearnedSkill12None.Location = new System.Drawing.Point(415, 353);
             this.checkBoxHMDigimonPartySlot1LearnedSkill12None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot1LearnedSkill12None.Name = "checkBoxHMDigimonPartySlot1LearnedSkill12None";
+            this.checkBoxHMDigimonPartySlot1LearnedSkill12None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot1LearnedSkill12None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot1LearnedSkill12None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot1LearnedSkill12None.TabIndex = 209;
             this.checkBoxHMDigimonPartySlot1LearnedSkill12None.UseVisualStyleBackColor = true;
@@ -89607,6 +89700,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot1LearnedSkill11None.Location = new System.Drawing.Point(415, 322);
             this.checkBoxHMDigimonPartySlot1LearnedSkill11None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot1LearnedSkill11None.Name = "checkBoxHMDigimonPartySlot1LearnedSkill11None";
+            this.checkBoxHMDigimonPartySlot1LearnedSkill11None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot1LearnedSkill11None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot1LearnedSkill11None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot1LearnedSkill11None.TabIndex = 208;
             this.checkBoxHMDigimonPartySlot1LearnedSkill11None.UseVisualStyleBackColor = true;
@@ -89617,6 +89711,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot1LearnedSkill10None.Location = new System.Drawing.Point(415, 293);
             this.checkBoxHMDigimonPartySlot1LearnedSkill10None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot1LearnedSkill10None.Name = "checkBoxHMDigimonPartySlot1LearnedSkill10None";
+            this.checkBoxHMDigimonPartySlot1LearnedSkill10None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot1LearnedSkill10None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot1LearnedSkill10None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot1LearnedSkill10None.TabIndex = 207;
             this.checkBoxHMDigimonPartySlot1LearnedSkill10None.UseVisualStyleBackColor = true;
@@ -89627,6 +89722,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot1LearnedSkill9None.Location = new System.Drawing.Point(415, 263);
             this.checkBoxHMDigimonPartySlot1LearnedSkill9None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot1LearnedSkill9None.Name = "checkBoxHMDigimonPartySlot1LearnedSkill9None";
+            this.checkBoxHMDigimonPartySlot1LearnedSkill9None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot1LearnedSkill9None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot1LearnedSkill9None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot1LearnedSkill9None.TabIndex = 206;
             this.checkBoxHMDigimonPartySlot1LearnedSkill9None.UseVisualStyleBackColor = true;
@@ -89637,6 +89733,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot1LearnedSkill8None.Location = new System.Drawing.Point(415, 233);
             this.checkBoxHMDigimonPartySlot1LearnedSkill8None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot1LearnedSkill8None.Name = "checkBoxHMDigimonPartySlot1LearnedSkill8None";
+            this.checkBoxHMDigimonPartySlot1LearnedSkill8None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot1LearnedSkill8None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot1LearnedSkill8None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot1LearnedSkill8None.TabIndex = 205;
             this.checkBoxHMDigimonPartySlot1LearnedSkill8None.UseVisualStyleBackColor = true;
@@ -89647,6 +89744,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot1LearnedSkill7None.Location = new System.Drawing.Point(415, 203);
             this.checkBoxHMDigimonPartySlot1LearnedSkill7None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot1LearnedSkill7None.Name = "checkBoxHMDigimonPartySlot1LearnedSkill7None";
+            this.checkBoxHMDigimonPartySlot1LearnedSkill7None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot1LearnedSkill7None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot1LearnedSkill7None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot1LearnedSkill7None.TabIndex = 204;
             this.checkBoxHMDigimonPartySlot1LearnedSkill7None.UseVisualStyleBackColor = true;
@@ -89657,6 +89755,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot1LearnedSkill6None.Location = new System.Drawing.Point(415, 174);
             this.checkBoxHMDigimonPartySlot1LearnedSkill6None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot1LearnedSkill6None.Name = "checkBoxHMDigimonPartySlot1LearnedSkill6None";
+            this.checkBoxHMDigimonPartySlot1LearnedSkill6None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot1LearnedSkill6None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot1LearnedSkill6None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot1LearnedSkill6None.TabIndex = 203;
             this.checkBoxHMDigimonPartySlot1LearnedSkill6None.UseVisualStyleBackColor = true;
@@ -89667,6 +89766,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot1LearnedSkill5None.Location = new System.Drawing.Point(415, 143);
             this.checkBoxHMDigimonPartySlot1LearnedSkill5None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot1LearnedSkill5None.Name = "checkBoxHMDigimonPartySlot1LearnedSkill5None";
+            this.checkBoxHMDigimonPartySlot1LearnedSkill5None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot1LearnedSkill5None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot1LearnedSkill5None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot1LearnedSkill5None.TabIndex = 202;
             this.checkBoxHMDigimonPartySlot1LearnedSkill5None.UseVisualStyleBackColor = true;
@@ -89677,6 +89777,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot1LearnedSkill4None.Location = new System.Drawing.Point(415, 113);
             this.checkBoxHMDigimonPartySlot1LearnedSkill4None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot1LearnedSkill4None.Name = "checkBoxHMDigimonPartySlot1LearnedSkill4None";
+            this.checkBoxHMDigimonPartySlot1LearnedSkill4None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot1LearnedSkill4None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot1LearnedSkill4None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot1LearnedSkill4None.TabIndex = 201;
             this.checkBoxHMDigimonPartySlot1LearnedSkill4None.UseVisualStyleBackColor = true;
@@ -89687,6 +89788,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot1LearnedSkill3None.Location = new System.Drawing.Point(415, 82);
             this.checkBoxHMDigimonPartySlot1LearnedSkill3None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot1LearnedSkill3None.Name = "checkBoxHMDigimonPartySlot1LearnedSkill3None";
+            this.checkBoxHMDigimonPartySlot1LearnedSkill3None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot1LearnedSkill3None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot1LearnedSkill3None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot1LearnedSkill3None.TabIndex = 200;
             this.checkBoxHMDigimonPartySlot1LearnedSkill3None.UseVisualStyleBackColor = true;
@@ -89697,6 +89799,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot1LearnedSkill2None.Location = new System.Drawing.Point(415, 53);
             this.checkBoxHMDigimonPartySlot1LearnedSkill2None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot1LearnedSkill2None.Name = "checkBoxHMDigimonPartySlot1LearnedSkill2None";
+            this.checkBoxHMDigimonPartySlot1LearnedSkill2None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot1LearnedSkill2None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot1LearnedSkill2None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot1LearnedSkill2None.TabIndex = 199;
             this.checkBoxHMDigimonPartySlot1LearnedSkill2None.UseVisualStyleBackColor = true;
@@ -89716,6 +89819,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot1LearnedSkill1None.Location = new System.Drawing.Point(415, 23);
             this.checkBoxHMDigimonPartySlot1LearnedSkill1None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot1LearnedSkill1None.Name = "checkBoxHMDigimonPartySlot1LearnedSkill1None";
+            this.checkBoxHMDigimonPartySlot1LearnedSkill1None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot1LearnedSkill1None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot1LearnedSkill1None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot1LearnedSkill1None.TabIndex = 197;
             this.checkBoxHMDigimonPartySlot1LearnedSkill1None.UseVisualStyleBackColor = true;
@@ -110574,6 +110678,7 @@ namespace DigimonStorySaveEditor
             this.comboBoxHMDigimonPartySlot1ID.Location = new System.Drawing.Point(117, 6);
             this.comboBoxHMDigimonPartySlot1ID.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBoxHMDigimonPartySlot1ID.Name = "comboBoxHMDigimonPartySlot1ID";
+            this.comboBoxHMDigimonPartySlot1ID.SelectedIndexChanged += new System.EventHandler(this.comboBoxHMDigimonPartySlot1ID_SelectedIndexChanged);
             this.comboBoxHMDigimonPartySlot1ID.Size = new System.Drawing.Size(273, 24);
             this.comboBoxHMDigimonPartySlot1ID.TabIndex = 1;
             this.comboBoxHMDigimonPartySlot1ID.Tag = "";
@@ -110684,6 +110789,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot2None.Location = new System.Drawing.Point(803, 21);
             this.checkBoxHMDigimonPartySlot2None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot2None.Name = "checkBoxHMDigimonPartySlot2None";
+            this.checkBoxHMDigimonPartySlot2None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot2None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot2None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot2None.TabIndex = 171;
             this.checkBoxHMDigimonPartySlot2None.UseVisualStyleBackColor = true;
@@ -110767,6 +110873,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot2CurrentSkill6None.Location = new System.Drawing.Point(416, 174);
             this.checkBoxHMDigimonPartySlot2CurrentSkill6None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot2CurrentSkill6None.Name = "checkBoxHMDigimonPartySlot2CurrentSkill6None";
+            this.checkBoxHMDigimonPartySlot2CurrentSkill6None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot2CurrentSkill6None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot2CurrentSkill6None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot2CurrentSkill6None.TabIndex = 176;
             this.checkBoxHMDigimonPartySlot2CurrentSkill6None.UseVisualStyleBackColor = true;
@@ -110777,6 +110884,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot2CurrentSkill5None.Location = new System.Drawing.Point(416, 143);
             this.checkBoxHMDigimonPartySlot2CurrentSkill5None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot2CurrentSkill5None.Name = "checkBoxHMDigimonPartySlot2CurrentSkill5None";
+            this.checkBoxHMDigimonPartySlot2CurrentSkill5None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot2CurrentSkill5None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot2CurrentSkill5None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot2CurrentSkill5None.TabIndex = 175;
             this.checkBoxHMDigimonPartySlot2CurrentSkill5None.UseVisualStyleBackColor = true;
@@ -110787,6 +110895,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot2CurrentSkill4None.Location = new System.Drawing.Point(416, 113);
             this.checkBoxHMDigimonPartySlot2CurrentSkill4None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot2CurrentSkill4None.Name = "checkBoxHMDigimonPartySlot2CurrentSkill4None";
+            this.checkBoxHMDigimonPartySlot2CurrentSkill4None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot2CurrentSkill4None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot2CurrentSkill4None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot2CurrentSkill4None.TabIndex = 174;
             this.checkBoxHMDigimonPartySlot2CurrentSkill4None.UseVisualStyleBackColor = true;
@@ -110797,6 +110906,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot2CurrentSkill3None.Location = new System.Drawing.Point(416, 82);
             this.checkBoxHMDigimonPartySlot2CurrentSkill3None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot2CurrentSkill3None.Name = "checkBoxHMDigimonPartySlot2CurrentSkill3None";
+            this.checkBoxHMDigimonPartySlot2CurrentSkill3None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot2CurrentSkill3None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot2CurrentSkill3None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot2CurrentSkill3None.TabIndex = 173;
             this.checkBoxHMDigimonPartySlot2CurrentSkill3None.UseVisualStyleBackColor = true;
@@ -110807,6 +110917,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot2CurrentSkill2None.Location = new System.Drawing.Point(416, 53);
             this.checkBoxHMDigimonPartySlot2CurrentSkill2None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot2CurrentSkill2None.Name = "checkBoxHMDigimonPartySlot2CurrentSkill2None";
+            this.checkBoxHMDigimonPartySlot2CurrentSkill2None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot2CurrentSkill2None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot2CurrentSkill2None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot2CurrentSkill2None.TabIndex = 172;
             this.checkBoxHMDigimonPartySlot2CurrentSkill2None.UseVisualStyleBackColor = true;
@@ -110817,6 +110928,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot2CurrentSkill1None.Location = new System.Drawing.Point(416, 23);
             this.checkBoxHMDigimonPartySlot2CurrentSkill1None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot2CurrentSkill1None.Name = "checkBoxHMDigimonPartySlot2CurrentSkill1None";
+            this.checkBoxHMDigimonPartySlot2CurrentSkill1None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot2CurrentSkill1None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot2CurrentSkill1None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot2CurrentSkill1None.TabIndex = 170;
             this.checkBoxHMDigimonPartySlot2CurrentSkill1None.UseVisualStyleBackColor = true;
@@ -116728,6 +116840,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot2LearnedSkill20None.Location = new System.Drawing.Point(415, 593);
             this.checkBoxHMDigimonPartySlot2LearnedSkill20None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot2LearnedSkill20None.Name = "checkBoxHMDigimonPartySlot2LearnedSkill20None";
+            this.checkBoxHMDigimonPartySlot2LearnedSkill20None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot2LearnedSkill20None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot2LearnedSkill20None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot2LearnedSkill20None.TabIndex = 217;
             this.checkBoxHMDigimonPartySlot2LearnedSkill20None.UseVisualStyleBackColor = true;
@@ -116738,6 +116851,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot2LearnedSkill19None.Location = new System.Drawing.Point(415, 562);
             this.checkBoxHMDigimonPartySlot2LearnedSkill19None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot2LearnedSkill19None.Name = "checkBoxHMDigimonPartySlot2LearnedSkill19None";
+            this.checkBoxHMDigimonPartySlot2LearnedSkill19None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot2LearnedSkill19None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot2LearnedSkill19None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot2LearnedSkill19None.TabIndex = 216;
             this.checkBoxHMDigimonPartySlot2LearnedSkill19None.UseVisualStyleBackColor = true;
@@ -116748,6 +116862,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot2LearnedSkill18None.Location = new System.Drawing.Point(415, 533);
             this.checkBoxHMDigimonPartySlot2LearnedSkill18None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot2LearnedSkill18None.Name = "checkBoxHMDigimonPartySlot2LearnedSkill18None";
+            this.checkBoxHMDigimonPartySlot2LearnedSkill18None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot2LearnedSkill18None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot2LearnedSkill18None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot2LearnedSkill18None.TabIndex = 215;
             this.checkBoxHMDigimonPartySlot2LearnedSkill18None.UseVisualStyleBackColor = true;
@@ -116758,6 +116873,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot2LearnedSkill17None.Location = new System.Drawing.Point(415, 503);
             this.checkBoxHMDigimonPartySlot2LearnedSkill17None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot2LearnedSkill17None.Name = "checkBoxHMDigimonPartySlot2LearnedSkill17None";
+            this.checkBoxHMDigimonPartySlot2LearnedSkill17None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot2LearnedSkill17None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot2LearnedSkill17None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot2LearnedSkill17None.TabIndex = 214;
             this.checkBoxHMDigimonPartySlot2LearnedSkill17None.UseVisualStyleBackColor = true;
@@ -116768,6 +116884,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot2LearnedSkill16None.Location = new System.Drawing.Point(415, 473);
             this.checkBoxHMDigimonPartySlot2LearnedSkill16None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot2LearnedSkill16None.Name = "checkBoxHMDigimonPartySlot2LearnedSkill16None";
+            this.checkBoxHMDigimonPartySlot2LearnedSkill16None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot2LearnedSkill16None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot2LearnedSkill16None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot2LearnedSkill16None.TabIndex = 213;
             this.checkBoxHMDigimonPartySlot2LearnedSkill16None.UseVisualStyleBackColor = true;
@@ -116778,6 +116895,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot2LearnedSkill15None.Location = new System.Drawing.Point(415, 443);
             this.checkBoxHMDigimonPartySlot2LearnedSkill15None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot2LearnedSkill15None.Name = "checkBoxHMDigimonPartySlot2LearnedSkill15None";
+            this.checkBoxHMDigimonPartySlot2LearnedSkill15None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot2LearnedSkill15None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot2LearnedSkill15None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot2LearnedSkill15None.TabIndex = 212;
             this.checkBoxHMDigimonPartySlot2LearnedSkill15None.UseVisualStyleBackColor = true;
@@ -116788,6 +116906,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot2LearnedSkill14None.Location = new System.Drawing.Point(415, 414);
             this.checkBoxHMDigimonPartySlot2LearnedSkill14None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot2LearnedSkill14None.Name = "checkBoxHMDigimonPartySlot2LearnedSkill14None";
+            this.checkBoxHMDigimonPartySlot2LearnedSkill14None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot2LearnedSkill14None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot2LearnedSkill14None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot2LearnedSkill14None.TabIndex = 211;
             this.checkBoxHMDigimonPartySlot2LearnedSkill14None.UseVisualStyleBackColor = true;
@@ -116798,6 +116917,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot2LearnedSkill13None.Location = new System.Drawing.Point(415, 383);
             this.checkBoxHMDigimonPartySlot2LearnedSkill13None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot2LearnedSkill13None.Name = "checkBoxHMDigimonPartySlot2LearnedSkill13None";
+            this.checkBoxHMDigimonPartySlot2LearnedSkill13None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot2LearnedSkill13None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot2LearnedSkill13None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot2LearnedSkill13None.TabIndex = 210;
             this.checkBoxHMDigimonPartySlot2LearnedSkill13None.UseVisualStyleBackColor = true;
@@ -116808,6 +116928,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot2LearnedSkill12None.Location = new System.Drawing.Point(415, 353);
             this.checkBoxHMDigimonPartySlot2LearnedSkill12None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot2LearnedSkill12None.Name = "checkBoxHMDigimonPartySlot2LearnedSkill12None";
+            this.checkBoxHMDigimonPartySlot2LearnedSkill12None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot2LearnedSkill12None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot2LearnedSkill12None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot2LearnedSkill12None.TabIndex = 209;
             this.checkBoxHMDigimonPartySlot2LearnedSkill12None.UseVisualStyleBackColor = true;
@@ -116818,6 +116939,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot2LearnedSkill11None.Location = new System.Drawing.Point(415, 322);
             this.checkBoxHMDigimonPartySlot2LearnedSkill11None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot2LearnedSkill11None.Name = "checkBoxHMDigimonPartySlot2LearnedSkill11None";
+            this.checkBoxHMDigimonPartySlot2LearnedSkill11None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot2LearnedSkill11None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot2LearnedSkill11None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot2LearnedSkill11None.TabIndex = 208;
             this.checkBoxHMDigimonPartySlot2LearnedSkill11None.UseVisualStyleBackColor = true;
@@ -116828,6 +116950,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot2LearnedSkill10None.Location = new System.Drawing.Point(415, 293);
             this.checkBoxHMDigimonPartySlot2LearnedSkill10None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot2LearnedSkill10None.Name = "checkBoxHMDigimonPartySlot2LearnedSkill10None";
+            this.checkBoxHMDigimonPartySlot2LearnedSkill10None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot2LearnedSkill10None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot2LearnedSkill10None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot2LearnedSkill10None.TabIndex = 207;
             this.checkBoxHMDigimonPartySlot2LearnedSkill10None.UseVisualStyleBackColor = true;
@@ -116838,6 +116961,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot2LearnedSkill9None.Location = new System.Drawing.Point(415, 263);
             this.checkBoxHMDigimonPartySlot2LearnedSkill9None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot2LearnedSkill9None.Name = "checkBoxHMDigimonPartySlot2LearnedSkill9None";
+            this.checkBoxHMDigimonPartySlot2LearnedSkill9None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot2LearnedSkill9None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot2LearnedSkill9None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot2LearnedSkill9None.TabIndex = 206;
             this.checkBoxHMDigimonPartySlot2LearnedSkill9None.UseVisualStyleBackColor = true;
@@ -116848,6 +116972,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot2LearnedSkill8None.Location = new System.Drawing.Point(415, 233);
             this.checkBoxHMDigimonPartySlot2LearnedSkill8None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot2LearnedSkill8None.Name = "checkBoxHMDigimonPartySlot2LearnedSkill8None";
+            this.checkBoxHMDigimonPartySlot2LearnedSkill8None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot2LearnedSkill8None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot2LearnedSkill8None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot2LearnedSkill8None.TabIndex = 205;
             this.checkBoxHMDigimonPartySlot2LearnedSkill8None.UseVisualStyleBackColor = true;
@@ -116858,6 +116983,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot2LearnedSkill7None.Location = new System.Drawing.Point(415, 203);
             this.checkBoxHMDigimonPartySlot2LearnedSkill7None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot2LearnedSkill7None.Name = "checkBoxHMDigimonPartySlot2LearnedSkill7None";
+            this.checkBoxHMDigimonPartySlot2LearnedSkill7None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot2LearnedSkill7None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot2LearnedSkill7None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot2LearnedSkill7None.TabIndex = 204;
             this.checkBoxHMDigimonPartySlot2LearnedSkill7None.UseVisualStyleBackColor = true;
@@ -116868,6 +116994,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot2LearnedSkill6None.Location = new System.Drawing.Point(415, 174);
             this.checkBoxHMDigimonPartySlot2LearnedSkill6None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot2LearnedSkill6None.Name = "checkBoxHMDigimonPartySlot2LearnedSkill6None";
+            this.checkBoxHMDigimonPartySlot2LearnedSkill6None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot2LearnedSkill6None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot2LearnedSkill6None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot2LearnedSkill6None.TabIndex = 203;
             this.checkBoxHMDigimonPartySlot2LearnedSkill6None.UseVisualStyleBackColor = true;
@@ -116878,6 +117005,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot2LearnedSkill5None.Location = new System.Drawing.Point(415, 143);
             this.checkBoxHMDigimonPartySlot2LearnedSkill5None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot2LearnedSkill5None.Name = "checkBoxHMDigimonPartySlot2LearnedSkill5None";
+            this.checkBoxHMDigimonPartySlot2LearnedSkill5None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot2LearnedSkill5None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot2LearnedSkill5None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot2LearnedSkill5None.TabIndex = 202;
             this.checkBoxHMDigimonPartySlot2LearnedSkill5None.UseVisualStyleBackColor = true;
@@ -116888,6 +117016,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot2LearnedSkill4None.Location = new System.Drawing.Point(415, 113);
             this.checkBoxHMDigimonPartySlot2LearnedSkill4None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot2LearnedSkill4None.Name = "checkBoxHMDigimonPartySlot2LearnedSkill4None";
+            this.checkBoxHMDigimonPartySlot2LearnedSkill4None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot2LearnedSkill4None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot2LearnedSkill4None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot2LearnedSkill4None.TabIndex = 201;
             this.checkBoxHMDigimonPartySlot2LearnedSkill4None.UseVisualStyleBackColor = true;
@@ -116898,6 +117027,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot2LearnedSkill3None.Location = new System.Drawing.Point(415, 82);
             this.checkBoxHMDigimonPartySlot2LearnedSkill3None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot2LearnedSkill3None.Name = "checkBoxHMDigimonPartySlot2LearnedSkill3None";
+            this.checkBoxHMDigimonPartySlot2LearnedSkill3None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot2LearnedSkill3None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot2LearnedSkill3None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot2LearnedSkill3None.TabIndex = 200;
             this.checkBoxHMDigimonPartySlot2LearnedSkill3None.UseVisualStyleBackColor = true;
@@ -116908,6 +117038,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot2LearnedSkill2None.Location = new System.Drawing.Point(415, 53);
             this.checkBoxHMDigimonPartySlot2LearnedSkill2None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot2LearnedSkill2None.Name = "checkBoxHMDigimonPartySlot2LearnedSkill2None";
+            this.checkBoxHMDigimonPartySlot2LearnedSkill2None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot2LearnedSkill2None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot2LearnedSkill2None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot2LearnedSkill2None.TabIndex = 199;
             this.checkBoxHMDigimonPartySlot2LearnedSkill2None.UseVisualStyleBackColor = true;
@@ -116927,6 +117058,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot2LearnedSkill1None.Location = new System.Drawing.Point(415, 23);
             this.checkBoxHMDigimonPartySlot2LearnedSkill1None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot2LearnedSkill1None.Name = "checkBoxHMDigimonPartySlot2LearnedSkill1None";
+            this.checkBoxHMDigimonPartySlot2LearnedSkill1None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot2LearnedSkill1None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot2LearnedSkill1None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot2LearnedSkill1None.TabIndex = 197;
             this.checkBoxHMDigimonPartySlot2LearnedSkill1None.UseVisualStyleBackColor = true;
@@ -137785,6 +137917,7 @@ namespace DigimonStorySaveEditor
             this.comboBoxHMDigimonPartySlot2ID.Location = new System.Drawing.Point(117, 6);
             this.comboBoxHMDigimonPartySlot2ID.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBoxHMDigimonPartySlot2ID.Name = "comboBoxHMDigimonPartySlot2ID";
+            this.comboBoxHMDigimonPartySlot2ID.SelectedIndexChanged += new System.EventHandler(this.comboBoxHMDigimonPartySlot2ID_SelectedIndexChanged);
             this.comboBoxHMDigimonPartySlot2ID.Size = new System.Drawing.Size(273, 24);
             this.comboBoxHMDigimonPartySlot2ID.TabIndex = 1;
             this.comboBoxHMDigimonPartySlot2ID.Tag = "";
@@ -137895,6 +138028,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot3None.Location = new System.Drawing.Point(803, 21);
             this.checkBoxHMDigimonPartySlot3None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot3None.Name = "checkBoxHMDigimonPartySlot3None";
+            this.checkBoxHMDigimonPartySlot3None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot3None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot3None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot3None.TabIndex = 171;
             this.checkBoxHMDigimonPartySlot3None.UseVisualStyleBackColor = true;
@@ -137977,6 +138111,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot3CurrentSkill6None.Location = new System.Drawing.Point(416, 174);
             this.checkBoxHMDigimonPartySlot3CurrentSkill6None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot3CurrentSkill6None.Name = "checkBoxHMDigimonPartySlot3CurrentSkill6None";
+            this.checkBoxHMDigimonPartySlot3CurrentSkill6None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot3CurrentSkill6None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot3CurrentSkill6None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot3CurrentSkill6None.TabIndex = 176;
             this.checkBoxHMDigimonPartySlot3CurrentSkill6None.UseVisualStyleBackColor = true;
@@ -137987,6 +138122,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot3CurrentSkill5None.Location = new System.Drawing.Point(416, 143);
             this.checkBoxHMDigimonPartySlot3CurrentSkill5None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot3CurrentSkill5None.Name = "checkBoxHMDigimonPartySlot3CurrentSkill5None";
+            this.checkBoxHMDigimonPartySlot3CurrentSkill5None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot3CurrentSkill5None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot3CurrentSkill5None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot3CurrentSkill5None.TabIndex = 175;
             this.checkBoxHMDigimonPartySlot3CurrentSkill5None.UseVisualStyleBackColor = true;
@@ -137997,6 +138133,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot3CurrentSkill4None.Location = new System.Drawing.Point(416, 113);
             this.checkBoxHMDigimonPartySlot3CurrentSkill4None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot3CurrentSkill4None.Name = "checkBoxHMDigimonPartySlot3CurrentSkill4None";
+            this.checkBoxHMDigimonPartySlot3CurrentSkill4None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot3CurrentSkill4None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot3CurrentSkill4None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot3CurrentSkill4None.TabIndex = 174;
             this.checkBoxHMDigimonPartySlot3CurrentSkill4None.UseVisualStyleBackColor = true;
@@ -138007,6 +138144,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot3CurrentSkill3None.Location = new System.Drawing.Point(416, 82);
             this.checkBoxHMDigimonPartySlot3CurrentSkill3None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot3CurrentSkill3None.Name = "checkBoxHMDigimonPartySlot3CurrentSkill3None";
+            this.checkBoxHMDigimonPartySlot3CurrentSkill3None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot3CurrentSkill3None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot3CurrentSkill3None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot3CurrentSkill3None.TabIndex = 173;
             this.checkBoxHMDigimonPartySlot3CurrentSkill3None.UseVisualStyleBackColor = true;
@@ -138017,6 +138155,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot3CurrentSkill2None.Location = new System.Drawing.Point(416, 53);
             this.checkBoxHMDigimonPartySlot3CurrentSkill2None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot3CurrentSkill2None.Name = "checkBoxHMDigimonPartySlot3CurrentSkill2None";
+            this.checkBoxHMDigimonPartySlot3CurrentSkill2None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot3CurrentSkill2None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot3CurrentSkill2None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot3CurrentSkill2None.TabIndex = 172;
             this.checkBoxHMDigimonPartySlot3CurrentSkill2None.UseVisualStyleBackColor = true;
@@ -138027,6 +138166,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot3CurrentSkill1None.Location = new System.Drawing.Point(416, 23);
             this.checkBoxHMDigimonPartySlot3CurrentSkill1None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot3CurrentSkill1None.Name = "checkBoxHMDigimonPartySlot3CurrentSkill1None";
+            this.checkBoxHMDigimonPartySlot3CurrentSkill1None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot3CurrentSkill1None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot3CurrentSkill1None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot3CurrentSkill1None.TabIndex = 170;
             this.checkBoxHMDigimonPartySlot3CurrentSkill1None.UseVisualStyleBackColor = true;
@@ -143938,6 +144078,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot3LearnedSkill20None.Location = new System.Drawing.Point(415, 593);
             this.checkBoxHMDigimonPartySlot3LearnedSkill20None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot3LearnedSkill20None.Name = "checkBoxHMDigimonPartySlot3LearnedSkill20None";
+            this.checkBoxHMDigimonPartySlot3LearnedSkill20None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot3LearnedSkill20None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot3LearnedSkill20None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot3LearnedSkill20None.TabIndex = 217;
             this.checkBoxHMDigimonPartySlot3LearnedSkill20None.UseVisualStyleBackColor = true;
@@ -143948,6 +144089,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot3LearnedSkill19None.Location = new System.Drawing.Point(415, 562);
             this.checkBoxHMDigimonPartySlot3LearnedSkill19None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot3LearnedSkill19None.Name = "checkBoxHMDigimonPartySlot3LearnedSkill19None";
+            this.checkBoxHMDigimonPartySlot3LearnedSkill19None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot3LearnedSkill19None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot3LearnedSkill19None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot3LearnedSkill19None.TabIndex = 216;
             this.checkBoxHMDigimonPartySlot3LearnedSkill19None.UseVisualStyleBackColor = true;
@@ -143958,6 +144100,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot3LearnedSkill18None.Location = new System.Drawing.Point(415, 533);
             this.checkBoxHMDigimonPartySlot3LearnedSkill18None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot3LearnedSkill18None.Name = "checkBoxHMDigimonPartySlot3LearnedSkill18None";
+            this.checkBoxHMDigimonPartySlot3LearnedSkill18None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot3LearnedSkill18None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot3LearnedSkill18None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot3LearnedSkill18None.TabIndex = 215;
             this.checkBoxHMDigimonPartySlot3LearnedSkill18None.UseVisualStyleBackColor = true;
@@ -143968,6 +144111,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot3LearnedSkill17None.Location = new System.Drawing.Point(415, 503);
             this.checkBoxHMDigimonPartySlot3LearnedSkill17None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot3LearnedSkill17None.Name = "checkBoxHMDigimonPartySlot3LearnedSkill17None";
+            this.checkBoxHMDigimonPartySlot3LearnedSkill17None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot3LearnedSkill17None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot3LearnedSkill17None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot3LearnedSkill17None.TabIndex = 214;
             this.checkBoxHMDigimonPartySlot3LearnedSkill17None.UseVisualStyleBackColor = true;
@@ -143978,6 +144122,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot3LearnedSkill16None.Location = new System.Drawing.Point(415, 473);
             this.checkBoxHMDigimonPartySlot3LearnedSkill16None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot3LearnedSkill16None.Name = "checkBoxHMDigimonPartySlot3LearnedSkill16None";
+            this.checkBoxHMDigimonPartySlot3LearnedSkill16None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot3LearnedSkill16None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot3LearnedSkill16None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot3LearnedSkill16None.TabIndex = 213;
             this.checkBoxHMDigimonPartySlot3LearnedSkill16None.UseVisualStyleBackColor = true;
@@ -143988,6 +144133,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot3LearnedSkill15None.Location = new System.Drawing.Point(415, 443);
             this.checkBoxHMDigimonPartySlot3LearnedSkill15None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot3LearnedSkill15None.Name = "checkBoxHMDigimonPartySlot3LearnedSkill15None";
+            this.checkBoxHMDigimonPartySlot3LearnedSkill15None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot3LearnedSkill15None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot3LearnedSkill15None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot3LearnedSkill15None.TabIndex = 212;
             this.checkBoxHMDigimonPartySlot3LearnedSkill15None.UseVisualStyleBackColor = true;
@@ -143998,6 +144144,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot3LearnedSkill14None.Location = new System.Drawing.Point(415, 414);
             this.checkBoxHMDigimonPartySlot3LearnedSkill14None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot3LearnedSkill14None.Name = "checkBoxHMDigimonPartySlot3LearnedSkill14None";
+            this.checkBoxHMDigimonPartySlot3LearnedSkill14None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot3LearnedSkill14None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot3LearnedSkill14None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot3LearnedSkill14None.TabIndex = 211;
             this.checkBoxHMDigimonPartySlot3LearnedSkill14None.UseVisualStyleBackColor = true;
@@ -144008,6 +144155,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot3LearnedSkill13None.Location = new System.Drawing.Point(415, 383);
             this.checkBoxHMDigimonPartySlot3LearnedSkill13None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot3LearnedSkill13None.Name = "checkBoxHMDigimonPartySlot3LearnedSkill13None";
+            this.checkBoxHMDigimonPartySlot3LearnedSkill13None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot3LearnedSkill13None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot3LearnedSkill13None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot3LearnedSkill13None.TabIndex = 210;
             this.checkBoxHMDigimonPartySlot3LearnedSkill13None.UseVisualStyleBackColor = true;
@@ -144018,6 +144166,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot3LearnedSkill12None.Location = new System.Drawing.Point(415, 353);
             this.checkBoxHMDigimonPartySlot3LearnedSkill12None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot3LearnedSkill12None.Name = "checkBoxHMDigimonPartySlot3LearnedSkill12None";
+            this.checkBoxHMDigimonPartySlot3LearnedSkill12None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot3LearnedSkill12None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot3LearnedSkill12None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot3LearnedSkill12None.TabIndex = 209;
             this.checkBoxHMDigimonPartySlot3LearnedSkill12None.UseVisualStyleBackColor = true;
@@ -144028,6 +144177,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot3LearnedSkill11None.Location = new System.Drawing.Point(415, 322);
             this.checkBoxHMDigimonPartySlot3LearnedSkill11None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot3LearnedSkill11None.Name = "checkBoxHMDigimonPartySlot3LearnedSkill11None";
+            this.checkBoxHMDigimonPartySlot3LearnedSkill11None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot3LearnedSkill11None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot3LearnedSkill11None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot3LearnedSkill11None.TabIndex = 208;
             this.checkBoxHMDigimonPartySlot3LearnedSkill11None.UseVisualStyleBackColor = true;
@@ -144038,6 +144188,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot3LearnedSkill10None.Location = new System.Drawing.Point(415, 293);
             this.checkBoxHMDigimonPartySlot3LearnedSkill10None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot3LearnedSkill10None.Name = "checkBoxHMDigimonPartySlot3LearnedSkill10None";
+            this.checkBoxHMDigimonPartySlot3LearnedSkill10None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot3LearnedSkill10None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot3LearnedSkill10None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot3LearnedSkill10None.TabIndex = 207;
             this.checkBoxHMDigimonPartySlot3LearnedSkill10None.UseVisualStyleBackColor = true;
@@ -144048,6 +144199,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot3LearnedSkill9None.Location = new System.Drawing.Point(415, 263);
             this.checkBoxHMDigimonPartySlot3LearnedSkill9None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot3LearnedSkill9None.Name = "checkBoxHMDigimonPartySlot3LearnedSkill9None";
+            this.checkBoxHMDigimonPartySlot3LearnedSkill9None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot3LearnedSkill9None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot3LearnedSkill9None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot3LearnedSkill9None.TabIndex = 206;
             this.checkBoxHMDigimonPartySlot3LearnedSkill9None.UseVisualStyleBackColor = true;
@@ -144058,6 +144210,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot3LearnedSkill8None.Location = new System.Drawing.Point(415, 233);
             this.checkBoxHMDigimonPartySlot3LearnedSkill8None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot3LearnedSkill8None.Name = "checkBoxHMDigimonPartySlot3LearnedSkill8None";
+            this.checkBoxHMDigimonPartySlot3LearnedSkill8None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot3LearnedSkill8None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot3LearnedSkill8None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot3LearnedSkill8None.TabIndex = 205;
             this.checkBoxHMDigimonPartySlot3LearnedSkill8None.UseVisualStyleBackColor = true;
@@ -144068,6 +144221,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot3LearnedSkill7None.Location = new System.Drawing.Point(415, 203);
             this.checkBoxHMDigimonPartySlot3LearnedSkill7None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot3LearnedSkill7None.Name = "checkBoxHMDigimonPartySlot3LearnedSkill7None";
+            this.checkBoxHMDigimonPartySlot3LearnedSkill7None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot3LearnedSkill7None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot3LearnedSkill7None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot3LearnedSkill7None.TabIndex = 204;
             this.checkBoxHMDigimonPartySlot3LearnedSkill7None.UseVisualStyleBackColor = true;
@@ -144078,6 +144232,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot3LearnedSkill6None.Location = new System.Drawing.Point(415, 174);
             this.checkBoxHMDigimonPartySlot3LearnedSkill6None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot3LearnedSkill6None.Name = "checkBoxHMDigimonPartySlot3LearnedSkill6None";
+            this.checkBoxHMDigimonPartySlot3LearnedSkill6None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot3LearnedSkill6None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot3LearnedSkill6None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot3LearnedSkill6None.TabIndex = 203;
             this.checkBoxHMDigimonPartySlot3LearnedSkill6None.UseVisualStyleBackColor = true;
@@ -144088,6 +144243,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot3LearnedSkill5None.Location = new System.Drawing.Point(415, 143);
             this.checkBoxHMDigimonPartySlot3LearnedSkill5None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot3LearnedSkill5None.Name = "checkBoxHMDigimonPartySlot3LearnedSkill5None";
+            this.checkBoxHMDigimonPartySlot3LearnedSkill5None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot3LearnedSkill5None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot3LearnedSkill5None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot3LearnedSkill5None.TabIndex = 202;
             this.checkBoxHMDigimonPartySlot3LearnedSkill5None.UseVisualStyleBackColor = true;
@@ -144098,6 +144254,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot3LearnedSkill4None.Location = new System.Drawing.Point(415, 113);
             this.checkBoxHMDigimonPartySlot3LearnedSkill4None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot3LearnedSkill4None.Name = "checkBoxHMDigimonPartySlot3LearnedSkill4None";
+            this.checkBoxHMDigimonPartySlot3LearnedSkill4None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot3LearnedSkill4None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot3LearnedSkill4None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot3LearnedSkill4None.TabIndex = 201;
             this.checkBoxHMDigimonPartySlot3LearnedSkill4None.UseVisualStyleBackColor = true;
@@ -144108,6 +144265,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot3LearnedSkill3None.Location = new System.Drawing.Point(415, 82);
             this.checkBoxHMDigimonPartySlot3LearnedSkill3None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot3LearnedSkill3None.Name = "checkBoxHMDigimonPartySlot3LearnedSkill3None";
+            this.checkBoxHMDigimonPartySlot3LearnedSkill3None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot3LearnedSkill3None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot3LearnedSkill3None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot3LearnedSkill3None.TabIndex = 200;
             this.checkBoxHMDigimonPartySlot3LearnedSkill3None.UseVisualStyleBackColor = true;
@@ -144118,6 +144276,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot3LearnedSkill2None.Location = new System.Drawing.Point(415, 53);
             this.checkBoxHMDigimonPartySlot3LearnedSkill2None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot3LearnedSkill2None.Name = "checkBoxHMDigimonPartySlot3LearnedSkill2None";
+            this.checkBoxHMDigimonPartySlot3LearnedSkill2None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot3LearnedSkill2None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot3LearnedSkill2None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot3LearnedSkill2None.TabIndex = 199;
             this.checkBoxHMDigimonPartySlot3LearnedSkill2None.UseVisualStyleBackColor = true;
@@ -144137,6 +144296,7 @@ namespace DigimonStorySaveEditor
             this.checkBoxHMDigimonPartySlot3LearnedSkill1None.Location = new System.Drawing.Point(415, 23);
             this.checkBoxHMDigimonPartySlot3LearnedSkill1None.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxHMDigimonPartySlot3LearnedSkill1None.Name = "checkBoxHMDigimonPartySlot3LearnedSkill1None";
+            this.checkBoxHMDigimonPartySlot3LearnedSkill1None.CheckedChanged += new System.EventHandler(this.checkBoxHMDigimonPartySlot3LearnedSkill1None_CheckedChanged);
             this.checkBoxHMDigimonPartySlot3LearnedSkill1None.Size = new System.Drawing.Size(18, 17);
             this.checkBoxHMDigimonPartySlot3LearnedSkill1None.TabIndex = 197;
             this.checkBoxHMDigimonPartySlot3LearnedSkill1None.UseVisualStyleBackColor = true;
@@ -164995,6 +165155,7 @@ namespace DigimonStorySaveEditor
             this.comboBoxHMDigimonPartySlot3ID.Location = new System.Drawing.Point(117, 6);
             this.comboBoxHMDigimonPartySlot3ID.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBoxHMDigimonPartySlot3ID.Name = "comboBoxHMDigimonPartySlot3ID";
+            this.comboBoxHMDigimonPartySlot3ID.SelectedIndexChanged += new System.EventHandler(this.comboBoxHMDigimonPartySlot3ID_SelectedIndexChanged);
             this.comboBoxHMDigimonPartySlot3ID.Size = new System.Drawing.Size(273, 24);
             this.comboBoxHMDigimonPartySlot3ID.TabIndex = 1;
             this.comboBoxHMDigimonPartySlot3ID.Tag = "";
@@ -165181,7 +165342,7 @@ namespace DigimonStorySaveEditor
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "MainMenu";
-            this.Text = "Digmon Story Cyber Sleuth: Complete Edition Switch Save Editor";
+            this.Text = "Digmon Story Cyber Sleuth: Complete Edition PC Save Editor";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.tabMain.ResumeLayout(false);
