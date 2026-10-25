@@ -2,13 +2,19 @@
 
 Versão para os saves da edição **PC/Steam**, baseada no editor Switch de GreenMii e M1CR0H4CK3R. Edita os **11 slots da party** (três de batalha e oito de reserva) e os campos de personagem, em Cyber Sleuth e Hacker’s Memory. DigiFarm e inventário continuam sem implementação.
 
-## Download — versão 1.2.0
+## Download — versão 1.2.1
 
-**[Baixar o editor v1.2.0 para Windows (ZIP)](https://github.com/Buloque/Digimon-Story-Cyber-Sleuth-Complete-Edition-PC-Save-Editor/raw/refs/heads/main/releases/DSCS-PC-Save-Editor-v1.2.zip)**
+**[Baixar o editor v1.2.1 para Windows (ZIP)](https://github.com/Buloque/Digimon-Story-Cyber-Sleuth-Complete-Edition-PC-Save-Editor/raw/refs/heads/main/releases/DSCS-PC-Save-Editor-v1.2.1.zip)**
 
 O pacote inclui o executável em `bin/`, o código-fonte em `src/` e o resultado dos testes em `validation/`. Requer **.NET Framework 4.7.2 ou superior**. Extraia o ZIP antes de executar o programa.
 
-[Notas da versão e arquivos](https://github.com/Buloque/Digimon-Story-Cyber-Sleuth-Complete-Edition-PC-Save-Editor/releases/tag/v1.2.0) · [Checksum SHA-256](https://github.com/Buloque/Digimon-Story-Cyber-Sleuth-Complete-Edition-PC-Save-Editor/raw/refs/heads/main/releases/SHA256SUMS.txt)
+[Notas da versão e arquivos](https://github.com/Buloque/Digimon-Story-Cyber-Sleuth-Complete-Edition-PC-Save-Editor/releases/tag/v1.2.1) · [Checksum SHA-256](https://github.com/Buloque/Digimon-Story-Cyber-Sleuth-Complete-Edition-PC-Save-Editor/raw/refs/heads/main/releases/SHA256SUMS.txt)
+
+## Versão 1.2.1: limites e gravação dos slots de reserva
+
+- Os slots 4–11 agora usam os mesmos limites dos slots 1–3: níveis até 99, HP até 9.999, SP e a maioria dos stats até 999, DEF até 1.500, bônus de treino até 327, ABI até 200 e CAM até 100.
+- Current HP, Current SP e Base SP dos slots de reserva agora são gravados com os 2 bytes usados pelo formato do jogo. A versão 1.2.0 gravava 4 bytes nesses campos e podia sobrescrever os bytes desconhecidos seguintes, fazendo o jogo rejeitar ou zerar valores.
+- Saves com um valor preexistente acima do limite da interface, como `102` em um campo limitado a 100, abrem sem erro. O valor é limitado apenas para exibição e os bytes originais permanecem intactos enquanto o campo não for editado.
 
 ## Versão 1.2.0: party completa e gênero
 
@@ -61,10 +67,10 @@ O script usa Mono 6.12, Roslyn 4.8 e Xvfb instalados em `/workspace/.cloud-setup
 ### Validação realizada
 
 - Criptografia **e** descriptografia comparadas à implementação C++ do MVGLTools em 12 entradas, incluindo zeros, bytes 0–255 e dados pseudoaleatórios. Um vetor de referência está fixado na suíte.
-- 32 testes automatizados com saves sintéticos: limites dos oito intervalos de layout, abertura/gravação sem mudanças idêntica byte a byte, edições isoladas nas duas campanhas, nomes japoneses, bônus fracionários, backups, conflito com alterações externas, retratos, party completa nas duas campanhas e edições isoladas dos 16 slots de reserva, cópia/remoção até o slot 11, gênero, recarga de arquivos e reversão de edições após salvar.
+- 34 testes automatizados com saves sintéticos: limites dos oito intervalos de layout, abertura/gravação sem mudanças idêntica byte a byte, edições isoladas nas duas campanhas, nomes japoneses, bônus fracionários, backups, conflito com alterações externas, retratos, party completa nas duas campanhas, limites e larguras dos campos dos 16 slots de reserva, cópia/remoção até o slot 11, gênero, recarga de arquivos, valores preexistentes fora do limite e reversão de edições após salvar.
 - Abertura e fechamento da interface verificados sob Mono/Xvfb.
 
-**A versão 1.2.0 foi validada com saves sintéticos e Mono/Xvfb no Linux. Ainda falta validação com saves reais, dentro do jogo e em execução nativa no Windows.** A leitura e a gravação verificadas pelos testes não garantem a aceitação de todas as edições pelo jogo.
+**A versão 1.2.1 foi validada com saves sintéticos e Mono/Xvfb no Linux. Ainda falta validação com o `0002.bin` que apresentou o erro, dentro do jogo e em execução nativa no Windows.** A leitura e a gravação verificadas pelos testes não garantem a aceitação de todas as edições pelo jogo.
 
 ## Formato e fontes
 

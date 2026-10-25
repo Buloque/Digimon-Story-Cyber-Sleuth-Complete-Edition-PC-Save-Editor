@@ -15,6 +15,13 @@ namespace DigimonStorySaveEditor
         private bool loadingSave;
         private readonly List<PartySlotEditor> reserveEditors = new List<PartySlotEditor>();
 
+        private sealed class NumericBounds
+        {
+            internal NumericUpDown Control;
+            internal decimal Minimum;
+            internal decimal Maximum;
+        }
+
         private void InitializePcEditor()
         {
             var species = new List<object>();
@@ -84,15 +91,53 @@ namespace DigimonStorySaveEditor
         private void ReloadEditor()
         {
             loadingSave = true;
+            List<NumericBounds> bounds = RelaxNumericBounds();
             try
             {
                 getData();
+                RestoreNumericBounds(bounds);
                 foreach (var editor in reserveEditors) editor.LoadData(editorData);
                 baselineProjection = SerializeData(null);
                 tabMain.Enabled = true;
                 saveToolStripMenuItem.Enabled = true;
             }
-            finally { loadingSave = false; }
+            finally
+            {
+                RestoreNumericBounds(bounds);
+                loadingSave = false;
+            }
+        }
+
+        private List<NumericBounds> RelaxNumericBounds()
+        {
+            var result = new List<NumericBounds>();
+            foreach (Control control in AllControls(this))
+            {
+                var number = control as NumericUpDown;
+                if (number == null) continue;
+                result.Add(new NumericBounds { Control = number, Minimum = number.Minimum, Maximum = number.Maximum });
+                number.Minimum = int.MinValue;
+                number.Maximum = int.MaxValue;
+            }
+            return result;
+        }
+
+        private static void RestoreNumericBounds(List<NumericBounds> bounds)
+        {
+            foreach (NumericBounds bound in bounds)
+            {
+                bound.Control.Minimum = bound.Minimum;
+                bound.Control.Maximum = bound.Maximum;
+            }
+        }
+
+        private static IEnumerable<Control> AllControls(Control parent)
+        {
+            foreach (Control child in parent.Controls)
+            {
+                yield return child;
+                foreach (Control descendant in AllControls(child)) yield return descendant;
+            }
         }
 
         private CheckBox SlotNone(int story, int slot)

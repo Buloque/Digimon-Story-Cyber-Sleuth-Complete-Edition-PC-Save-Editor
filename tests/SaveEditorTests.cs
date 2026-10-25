@@ -57,7 +57,8 @@ class SaveEditorTests
             Run("Ambiguous party headers refuse index guessing", IndexValidation);
             Run("Both campaigns expose all 11 party positions", AllPartySlots);
             Run("Full parties survive no-op without changing reserve data", ReserveNoOp);
-            Run("Each reserve HP edit reaches only the selected 32-bit field", ReserveHp);
+            Run("Reserve stat limits match the original battle slots", ReserveLimits);
+            Run("Each reserve HP edit reaches only the selected 16-bit field", ReserveHp);
             Run("Reserve equipment and precision stats preserve adjacent bytes", ReserveStats);
             Run("Reserve current and learned skills persist with their flags", ReserveSkills);
             Run("Reserve edits can be reverted after saving", ReserveRevert);
@@ -66,6 +67,7 @@ class SaveEditorTests
             Run("Validation checks the last reserve species", ReserveValidation);
             Run("Gender choices persist in the full CS sex field", Gender);
             Run("An unknown gender is preserved until explicitly changed", UnknownGender);
+            Run("Out-of-range values open safely and remain byte-identical", OutOfRangeOpen);
         }
         finally { Directory.Delete(root, true); }
         Console.WriteLine(passed + " passed; " + failed + " failed. Synthetic fixtures; game acceptance not tested.");
@@ -295,7 +297,8 @@ class SaveEditorTests
             int start=Slot(story,slot);
             Buffer.BlockCopy(data,Slot(story,0),data,start,PcSaveDocument.SlotSize);
             Put(data,start+8,(uint)slot);Put(data,start+12,0x12340000U+(uint)(story*11+slot));
-            Put(data,start+0x88,70000U+(uint)slot); // exceeds a 16-bit HP field
+            Buffer.BlockCopy(BitConverter.GetBytes((short)(7000+slot)),0,data,start+0x88,2);
+            data[start+0x8A]=0xA5;data[start+0x8B]=0x5A; // unknown bytes after current HP
             var name=Encoding.UTF8.GetBytes("Reserve "+(slot+1));Array.Clear(data,start+0x20,72);Buffer.BlockCopy(name,0,data,start+0x20,name.Length);
             data[start+0x92]=0x42;data[start+0x93]=0x75; // unknown adjacent to trained HP
         }
@@ -313,7 +316,7 @@ class SaveEditorTests
             {
                 string name=ReserveName(story,slot);
                 Assert(Control<TextBox>(f,"textBox"+name+"Nickname").Text=="Reserve "+(slot+1),"Wrong reserve name");
-                Assert(Control<NumericUpDown>(f,"numericUpDown"+name+"CurrentHP").Value==70000+slot,"Truncated reserve HP");
+                Assert(Control<NumericUpDown>(f,"numericUpDown"+name+"CurrentHP").Value==7000+slot,"Truncated reserve HP");
                 var picture=Control<PictureBox>(f,"pictureBox"+name+"Portrait");var initial=picture.Image;
                 var combo=Control<ComboBox>(f,"comboBox"+name+"ID");combo.SelectedIndex=combo.FindStringExact("AeroVeedramon");
                 Assert(picture.Image!=null && !Object.ReferenceEquals(initial,picture.Image),"Stale reserve portrait");
@@ -326,6 +329,20 @@ class SaveEditorTests
         using(var f=new MainMenu()) { f.OpenPcSave(path);f.SavePcSave(); }
         Equal(original,File.ReadAllBytes(path));
     }
+    static void ReserveLimits()
+    {
+        using(var f=new MainMenu())
+        {
+            f.OpenPcSave(NewSave(FullPartyFixture()));string name=ReserveName(0,3);
+            Assert(Control<NumericUpDown>(f,"numericUpDown"+name+"CurrentLVL").Maximum==99,"Wrong level limit");
+            Assert(Control<NumericUpDown>(f,"numericUpDown"+name+"Defense").Maximum==1500,"Wrong defense limit");
+            Assert(Control<NumericUpDown>(f,"numericUpDown"+name+"CurrentHP").Maximum==9999,"Wrong HP limit");
+            Assert(Control<NumericUpDown>(f,"numericUpDown"+name+"CurrentSP").Maximum==999,"Wrong SP limit");
+            Assert(Control<NumericUpDown>(f,"numericUpDown"+name+"BonusAttack").Maximum==327,"Wrong training limit");
+            Assert(Control<NumericUpDown>(f,"numericUpDown"+name+"ABI").Maximum==200,"Wrong ABI limit");
+            Assert(Control<NumericUpDown>(f,"numericUpDown"+name+"CAM").Maximum==100,"Wrong CAM limit");
+        }
+    }
     static void ReserveHp()
     {
         string path=NewSave(FullPartyFixture());
@@ -335,9 +352,9 @@ class SaveEditorTests
             for(int story=0;story<2;story++) for(int slot=3;slot<11;slot++)
             {
                 byte[] before=Read(path);int at=Slot(story,slot)+0x88;
-                Control<NumericUpDown>(f,"numericUpDown"+ReserveName(story,slot)+"CurrentHP").Value=120000+slot;
+                Control<NumericUpDown>(f,"numericUpDown"+ReserveName(story,slot)+"CurrentHP").Value=9000+slot;
                 f.SavePcSave();byte[] after=Read(path);
-                Assert(BitConverter.ToUInt32(after,at)==120000+slot,"HP written to wrong reserve");OnlyRanges(before,after,at,4);
+                Assert(BitConverter.ToInt16(after,at)==9000+slot,"HP written to wrong reserve");OnlyRanges(before,after,at,2);
             }
         }
     }
@@ -381,7 +398,7 @@ class SaveEditorTests
         using(var f=new MainMenu())
         {
             f.OpenPcSave(path);var hp=Control<NumericUpDown>(f,"numericUpDown"+ReserveName(1,7)+"CurrentHP");decimal initial=hp.Value;
-            hp.Value=345678;f.SavePcSave();hp.Value=initial;f.SavePcSave();
+            hp.Value=8888;f.SavePcSave();hp.Value=initial;f.SavePcSave();
         }
         Equal(original,File.ReadAllBytes(path));
     }
@@ -436,6 +453,21 @@ class SaveEditorTests
             Control<ComboBox>(f,"comboBoxCSCharacterStatsCharacterGender").SelectedItem="Female";f.SavePcSave();
         }
         Assert(BitConverter.ToUInt32(Read(path),0x4B980)==2,"Only one byte of the gender field was written");
+    }
+    static void OutOfRangeOpen()
+    {
+        var data=FullPartyFixture();int battle=Slot(0,0),reserve=Slot(1,10);
+        Buffer.BlockCopy(BitConverter.GetBytes((short)102),0,data,battle+0xB0,2);
+        Buffer.BlockCopy(BitConverter.GetBytes((short)102),0,data,reserve+0x74,2);
+        string path=NewSave(data);byte[] original=File.ReadAllBytes(path);
+        using(var f=new MainMenu())
+        {
+            f.OpenPcSave(path);
+            Assert(Control<NumericUpDown>(f,"numericUpDownCSDigimonPartySlot1CAM").Value==100,"Battle value was not clamped for display");
+            Assert(Control<NumericUpDown>(f,"numericUpDownHMDigimonPartySlot11CurrentLVL").Value==99,"Reserve value was not clamped for display");
+            f.SavePcSave();
+        }
+        Equal(original,File.ReadAllBytes(path));
     }
 
 }

@@ -72,27 +72,31 @@ namespace DigimonStorySaveEditor
             AddField(main, "Personality", ChoiceField("Personality", 0x84, 4,
                 "1:Durable (HP)\n2:Lively (SP)\n3:Fighter (ATK)\n4:Defender (DEF)\n5:Brainy (INT)\n6:Nimble (SPD)\n7:Builder (Development)\n8:Searcher (Investigation)"));
             AddField(main, "Support skill", ChoiceField("SupportSkill", 0x224, 4, Properties.Resources.Support_Skills));
-            AddField(main, "Equip slots", Number("EquipSlots", 0x228, 2, true));
-            AddField(main, "Memory use", Number("Memory", 0x68, 2, true));
-            AddField(main, "EXP", Number("EXP", 0x7C, 4));
-            AddField(main, "Current level", Number("CurrentLVL", 0x74, 2, true));
-            AddField(main, "Level cap bonus", Number("MaxLVL", 0x76, 2, true));
-            AddField(main, "Base level cap", Number("ExtraMaxLVL", 0x78, 2, true));
-            AddField(main, "Current HP", Number("CurrentHP", 0x88, 4));
-            AddField(main, "Base HP × 10", Number("MaxHP", 0x8C, 4, true, 10m));
-            AddField(main, "Bonus HP", Number("BonusHP", 0x90, 2, false, 0.01m));
-            AddField(main, "Current SP", Number("CurrentSP", 0x94, 4));
-            AddField(main, "Base SP", Number("MaxSP", 0x98, 4));
-            AddField(main, "Bonus SP", Number("BonusSP", 0x9C, 2, false, 0.01m));
+            // Match the original battle-slot controls and their on-disk widths exactly.
+            // Several values are followed by unknown bytes, so writing a wider integer
+            // corrupts the Digimon record even when the displayed value looks correct.
+            AddField(main, "Equip slots", Number("EquipSlots", 0x228, 2, 3));
+            AddField(main, "Memory use", Number("Memory", 0x68, 2, 50));
+            AddField(main, "EXP", Number("EXP", 0x7C, 4, 6900000));
+            AddField(main, "Current level", Number("CurrentLVL", 0x74, 2, 99));
+            AddField(main, "Level cap bonus", Number("MaxLVL", 0x76, 2, 99));
+            AddField(main, "Base level cap", Number("ExtraMaxLVL", 0x78, 2, 99));
+            AddField(main, "Current HP", Number("CurrentHP", 0x88, 2, 9999));
+            AddField(main, "Base HP × 10", Number("MaxHP", 0x8C, 2, 9999, 10m));
+            AddField(main, "Bonus HP", Number("BonusHP", 0x90, 2, 327, 0.01m));
+            AddField(main, "Current SP", Number("CurrentSP", 0x94, 2, 999));
+            AddField(main, "Base SP", Number("MaxSP", 0x98, 2, 999));
+            AddField(main, "Bonus SP", Number("BonusSP", 0x9C, 2, 327, 0.01m));
             string[] stats = { "Attack", "Defense", "Intelligence", "Speed" };
             string[] labels = { "ATK", "DEF", "INT", "SPD" };
             for (int i = 0; i < stats.Length; i++)
             {
-                AddField(main, "Base " + labels[i], Number(stats[i], 0x9E + i * 4, 2));
-                AddField(main, "Bonus " + labels[i], Number("Bonus" + stats[i], 0xA0 + i * 4, 2, false, 0.01m));
+                decimal maximum = stats[i] == "Defense" ? 1500 : 999;
+                AddField(main, "Base " + labels[i], Number(stats[i], 0x9E + i * 4, 2, maximum));
+                AddField(main, "Bonus " + labels[i], Number("Bonus" + stats[i], 0xA0 + i * 4, 2, 327, 0.01m));
             }
-            AddField(main, "ABI", Number("ABI", 0xAE, 2));
-            AddField(main, "CAM", Number("CAM", 0xB0, 2));
+            AddField(main, "ABI", Number("ABI", 0xAE, 2, 200));
+            AddField(main, "CAM", Number("CAM", 0xB0, 2, 100));
             for (int i = 0; i < 3; i++) AddField(main, "Equipment " + (i + 1), ChoiceField("Equip" + (i + 1), 0x22A + i * 2, 2, Properties.Resources.Equipment));
             AddField(main, "Accessory", ChoiceField("Accessory", 0x230, 2, Properties.Resources.Accessories));
             AddSkills("Current", 6, 0xB4);
@@ -140,27 +144,26 @@ namespace DigimonStorySaveEditor
             });
             return control;
         }
-        private NumericUpDown Number(string name, int offset, int size, bool signed = false, decimal scale = 1m)
+        private NumericUpDown Number(string name, int offset, int size, decimal maximum, decimal scale = 1m)
         {
-            decimal minimum = signed ? (size == 2 ? short.MinValue : int.MinValue) : 0m;
-            decimal maximum = signed ? (size == 2 ? short.MaxValue : int.MaxValue) : (size == 2 ? ushort.MaxValue : uint.MaxValue);
             var control = new NumericUpDown {
                 Name = "numericUpDown" + prefix + name, Width = 130,
-                Minimum = minimum * scale, Maximum = maximum * scale,
+                Minimum = 0, Maximum = maximum,
                 DecimalPlaces = scale < 1m ? 2 : 0, Increment = scale
             };
             fields.Add(new Field {
                 Offset = offset,
                 Load = (data, start) => {
-                    decimal value = signed ? (size == 2 ? BitConverter.ToInt16(data, start + offset) : BitConverter.ToInt32(data, start + offset)) : Read(data, start + offset, size);
-                    control.Value = value * scale;
+                    decimal value = (size == 2 ? BitConverter.ToInt16(data, start + offset) : BitConverter.ToInt32(data, start + offset)) * scale;
+                    // A real save can contain a legacy or modified value outside the
+                    // editable range. Display the nearest safe value while preserving
+                    // the original bytes until the user actually changes this field.
+                    control.Value = Math.Min(control.Maximum, Math.Max(control.Minimum, value));
                 },
                 Value = () => control.Value,
                 Encode = () => {
-                    decimal value = control.Value / scale;
-                    if (value != decimal.Truncate(value)) throw new InvalidDataException(name + " deve ser múltiplo de " + scale + ".");
-                    if (signed) return size == 2 ? BitConverter.GetBytes((short)value) : BitConverter.GetBytes((int)value);
-                    return Encode((uint)value, size);
+                    decimal value = decimal.Truncate(control.Value / scale);
+                    return size == 2 ? BitConverter.GetBytes(checked((short)value)) : BitConverter.GetBytes(checked((int)value));
                 }
             });
             return control;
